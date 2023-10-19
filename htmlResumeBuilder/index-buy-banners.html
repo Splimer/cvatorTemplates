@@ -1,0 +1,1832 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <!--<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fancyapps/ui/dist/fancybox.css" />
+    <link rel="stylesheet" type="text/css" href="//cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.css" />
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/css/bootstrap.min.css" rel="stylesheet"
+      integrity="sha384-4bw+/aepP/YC94hEpVNVgiZdgIC5+VKNBQNGCHeKRQN+PtmoHDEXuppvnDJzQIu9" crossorigin="anonymous">-->
+  <link rel="stylesheet" type="text/css" href="css/npm_@fancyapps_ui_dist_fancybox.css" />
+  <link rel="stylesheet" type="text/css" href="css/slick.css" />
+  <link rel="stylesheet" type="text/css" href="css/npm_bootstrap@5.3.1_dist_css_bootstrap.min.css" />
+  <link rel="stylesheet" href="css/fonts.css">
+  <link rel="stylesheet" href="css/reset.css">
+  <link rel="stylesheet" href="css/style.css">
+  <title>CVator</title>
+</head>
+
+<body>
+  <div class="wrapper wrapper--scroll">
+    <div class="main">
+      <div class="popup">
+        <div class="popup__wrapper">
+          <div class="popup__container">
+            <div class="popup__heading">
+              <div class="popup__heading-top">
+                <div class="popup__top-smile">😎</div>
+                <div class="popup__top-title">We are working on your resume
+                </div>
+              </div>
+              <div class="popup__heading-bottom">
+                <div class="popup__bottom-container">
+                  <div class="popup__bottom-title">Vasily Pilipeyko</div>
+                  <div class="popup__bottom-content">
+                    <div class="popup__bottom-bg">
+                      I am a seasoned Full Stack Developer with over a decade of experience in the .NET
+                      ecosystem. My expertise spans crafting I am a seasoned Full Stack Developer with over a decade of
+                      experience in the .NET
+                      ecosystem. <br>
+                      My expertise spans crafting ...I am a seasoned Full Stack Developer with over a decade
+                      of experience in the .NET
+                      ecosystem. <br>
+                      My expertise spans crafting ...I am a seasoned Full Stack Developer with over a decade
+                      of experience in the .NET
+                      ecosystem. My expertise spans crafting ...
+                    </div>
+                    <div class="popup__bottom-font">
+                      <div class="popup__bottom-item">Reading Resume...</div>
+                      <div class="popup__bottom-item popup__item--active">Reading Vacancy...</div>
+                      <div class="popup__bottom-item">Scoring Resume...</div>
+                      <div class="popup__bottom-item">Generating Suggestions...</div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="popup__content">
+              <div class="popup__content-grid">
+                <div class="popup__content-smile">🚀</div>
+                <div class="popup__content-text">
+                  <div class="text-bold">Analysis Complete</div>: It can take up to few minutes to analyze and<div
+                    class="text-yellow">generate the best Resume for you.</div>
+                </div>
+              </div>
+              <div class="popup__content-gridtext">
+                If you don’t have time to wait - <span> Sign in </span> and come back later. We will notify you by Email
+                and provide a ready to go Resume.
+              </div>
+              <div class="popup__content-factblock">
+                <div class="popup__content-factline"></div>
+                <div class="popup__content-facttext">
+                  <div class="popup__content-facttitle">While you’re waiting: Fun fact</div>
+                  <div class="popup__content-factsubtitle">.NET developers often joke that they spend half their time
+                    writing code and the other half waiting for Visual Studio updates!</div>
+                </div>
+              </div>
+              <div class="popup__content-btnbox">
+                <div class="popup__content-btn transparent">
+                  <div class="popup__content-btntext">next</div>
+                  <div class="popup__content-svg">
+                    <svg xmlns="http://www.w3.org/2000/svg" width="13" height="12" viewBox="0 0 13 12" fill="none">
+                      <path
+                        d="M9.38906 5.22866L5.25132 1.09091L6.34222 0L12.3423 6.00005L6.34222 12L5.25132 10.9091L9.38906 6.77144H0V5.22866H9.38906Z"
+                        fill="#475569" />
+                    </svg>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="overlay overlay--show"></div>
+      </div>
+      <div class="burger__menu">
+        <div class="burger__menu-container">
+          <div class="burger__menu-exitbox">
+            <div class="burger__menu-exit">
+              <svg width="30" height="30" viewBox="0 0 30 30" fill="none" xmlns="http://www.w3.org/2000/svg">
+                <path
+                  d="M15 30C6.71572 30 0 23.2842 0 15C0 6.71572 6.71572 0 15 0C23.2842 0 30 6.71572 30 15C30 23.2842 23.2842 30 15 30ZM15 27C21.6275 27 27 21.6275 27 15C27 8.37258 21.6275 3 15 3C8.37258 3 3 8.37258 3 15C3 21.6275 8.37258 27 15 27ZM15 12.8787L19.2426 8.63604L21.3639 10.7574L17.1213 15L21.3639 19.2426L19.2426 21.3639L15 17.1213L10.7574 21.3639L8.63604 19.2426L12.8787 15L8.63604 10.7574L10.7574 8.63604L15 12.8787Z"
+                  fill="#626262" />
+              </svg>
+            </div>
+          </div>
+          <div class="burger__menu-item">
+            <div class="burger__menu-svg burger__svg-1">
+              <svg xmlns="http://www.w3.org/2000/svg" width="28" height="28" viewBox="0 0 28 28" fill="none">
+                <path
+                  d="M15.3748 27.517V12.5001H27.3883V27.517H15.3748ZM0.35791 15.5035V0.486572H12.3714V15.5035H0.35791ZM9.36805 12.5001V3.48995H3.36129V12.5001H9.36805ZM0.35791 27.517V18.5068H12.3714V27.517H0.35791ZM3.36129 24.5136H9.36805V21.5102H3.36129V24.5136ZM18.3782 24.5136H24.3849V15.5035H18.3782V24.5136ZM15.3748 0.486572H27.3883V9.49671H15.3748V0.486572ZM18.3782 3.48995V6.49333H24.3849V3.48995H18.3782Z"
+                  fill="black" fill-opacity="0.35" />
+              </svg>
+            </div>
+            <div class="burger__menu-text">Dashboard</div>
+          </div>
+          <div class="burger__menu-item">
+            <div class="burger__menu-svg burger__svg-2">
+              <svg xmlns="http://www.w3.org/2000/svg" width="30" height="30" viewBox="0 0 30 30" fill="none">
+                <path
+                  d="M17.5 28.125L14 23.75H7.5C6.80965 23.75 6.25 23.1904 6.25 22.5V8.8782C6.25 8.18785 6.80965 7.6282 7.5 7.6282H27.5C28.1904 7.6282 28.75 8.18785 28.75 8.8782V22.5C28.75 23.1904 28.1904 23.75 27.5 23.75H21L17.5 28.125ZM19.7984 21.25H26.25V10.1282H8.75V21.25H14H15.2016L17.5 24.123L19.7984 21.25ZM2.5 2.5H23.75V5H3.75V18.75H1.25V3.75C1.25 3.05965 1.80965 2.5 2.5 2.5Z"
+                  fill="#A2A3A5" />
+              </svg>
+            </div>
+            <div class="burger__menu-text">Practice Interview</div>
+          </div>
+          <div class="burger__menu-item">
+            <div class="burger__menu-svg burger__svg-3">
+              <svg xmlns="http://www.w3.org/2000/svg" width="33" height="33" viewBox="0 0 33 33" fill="none">
+                <path
+                  d="M2.75671 26.125H30.2567V28.875H2.75671V26.125ZM2.75671 6.875L9.63171 11.6875L16.5067 2.75L23.3817 11.6875L30.2567 6.875V23.375H2.75671V6.875ZM5.50671 12.1568V20.625H27.5067V12.1568L22.8049 15.448L16.5067 7.26033L10.2085 15.448L5.50671 12.1568Z"
+                  fill="#A1A2A3" />
+              </svg>
+            </div>
+            <div class="burger__menu-text">Upgrade to Plan</div>
+          </div>
+          <div class="burger__menu-item">
+            <div class="burger__menu-svg burger__svg-4">
+              <svg xmlns="http://www.w3.org/2000/svg" width="26" height="29" viewBox="0 0 26 29" fill="none">
+                <path
+                  d="M12.8735 0.503418L25.1016 7.58281V21.7416L12.8735 28.821L0.645508 21.7416V7.58281L12.8735 0.503418ZM12.8735 3.47805L3.21983 9.06691V20.2575L12.8735 25.8464L22.5273 20.2575V9.06691L12.8735 3.47805ZM12.8735 19.8109C11.508 19.8109 10.1985 19.2684 9.2329 18.3028C8.26734 17.3373 7.7249 16.0277 7.7249 14.6622C7.7249 13.2967 8.26734 11.9871 9.2329 11.0216C10.1985 10.056 11.508 9.51355 12.8735 9.51355C14.2391 9.51355 15.5486 10.056 16.5142 11.0216C17.4798 11.9871 18.0222 13.2967 18.0222 14.6622C18.0222 16.0277 17.4798 17.3373 16.5142 18.3028C15.5486 19.2684 14.2391 19.8109 12.8735 19.8109ZM12.8735 17.2365C13.5563 17.2365 14.2111 16.9653 14.6939 16.4825C15.1767 15.9997 15.4479 15.345 15.4479 14.6622C15.4479 13.9794 15.1767 13.3247 14.6939 12.8419C14.2111 12.3591 13.5563 12.0879 12.8735 12.0879C12.1908 12.0879 11.536 12.3591 11.0532 12.8419C10.5704 13.3247 10.2992 13.9794 10.2992 14.6622C10.2992 15.345 10.5704 15.9997 11.0532 16.4825C11.536 16.9653 12.1908 17.2365 12.8735 17.2365Z"
+                  fill="black" fill-opacity="0.35" />
+              </svg>
+            </div>
+            <div class="burger__menu-text">Account</div>
+          </div>
+          <div class="burger__menu-item">
+            <div class="burger__menu-svg burger__svg-5">
+              <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none">
+                <path
+                  d="M10 11V8L15 12L10 16V13H1V11H10ZM2.4578 15H4.58152C5.76829 17.9318 8.64262 20 12 20C16.4183 20 20 16.4183 20 12C20 7.58172 16.4183 4 12 4C8.64262 4 5.76829 6.06817 4.58152 9H2.4578C3.73207 4.94289 7.52236 2 12 2C17.5228 2 22 6.47715 22 12C22 17.5228 17.5228 22 12 22C7.52236 22 3.73207 19.0571 2.4578 15Z"
+                  fill="#A4A4A4" />
+              </svg>
+            </div>
+            <div class="burger__menu-text">Sign out</div>
+          </div>
+          <div class="burger__menu-underline"></div>
+          <div class="burger__menu-item">
+            <div class="burger__menu-svg burger__svg-6">
+              <svg xmlns="http://www.w3.org/2000/svg" width="26" height="26" viewBox="0 0 26 26" fill="none">
+                <g clip-path="url(#clip0_119_20737)">
+                  <path
+                    d="M12.8716 25.7432C5.76263 25.7432 0 19.9806 0 12.8716C0 5.76263 5.76263 0 12.8716 0C19.9806 0 25.7432 5.76263 25.7432 12.8716C25.7432 19.9806 19.9806 25.7432 12.8716 25.7432ZM12.8716 23.1689C15.6026 23.1689 18.2218 22.084 20.1529 20.1529C22.084 18.2218 23.1689 15.6026 23.1689 12.8716C23.1689 10.1406 22.084 7.52145 20.1529 5.59033C18.2218 3.65922 15.6026 2.57432 12.8716 2.57432C10.1406 2.57432 7.52145 3.65922 5.59033 5.59033C3.65922 7.52145 2.57432 10.1406 2.57432 12.8716C2.57432 15.6026 3.65922 18.2218 5.59033 20.1529C7.52145 22.084 10.1406 23.1689 12.8716 23.1689ZM11.5845 16.7331H14.1588V19.3074H11.5845V16.7331ZM14.1588 14.6157V15.4459H11.5845V13.5152C11.5845 13.1738 11.7201 12.8464 11.9615 12.605C12.2029 12.3637 12.5302 12.228 12.8716 12.228C13.2373 12.228 13.5954 12.1242 13.9043 11.9286C14.2133 11.733 14.4603 11.4536 14.6167 11.1231C14.7731 10.7926 14.8324 10.4245 14.7878 10.0615C14.7431 9.69863 14.5964 9.35585 14.3645 9.07309C14.1327 8.79034 13.8253 8.57923 13.4782 8.46434C13.131 8.34945 12.7584 8.33549 12.4036 8.4241C12.0489 8.5127 11.7266 8.70023 11.4742 8.96485C11.2219 9.22947 11.0499 9.56031 10.9782 9.91887L8.4528 9.41302C8.60935 8.63053 8.97089 7.90365 9.50044 7.30669C10.03 6.70972 10.7086 6.26408 11.4668 6.01532C12.225 5.76656 13.0357 5.72361 13.816 5.89085C14.5963 6.05809 15.3181 6.42952 15.9078 6.96718C16.4975 7.50485 16.9338 8.18945 17.1722 8.95101C17.4105 9.71257 17.4424 10.5238 17.2645 11.3017C17.0866 12.0796 16.7054 12.7963 16.1597 13.3786C15.614 13.9609 14.9235 14.3878 14.1588 14.6157Z"
+                    fill="black" fill-opacity="0.35" />
+                </g>
+                <defs>
+                  <clipPath id="clip0_119_20737">
+                    <path
+                      d="M0 7.00001C0 3.13401 3.13401 0 7 0H25.7432V25.7432H7.00001C3.13401 25.7432 0 22.6092 0 18.7432V7.00001Z"
+                      fill="white" />
+                  </clipPath>
+                </defs>
+              </svg>
+            </div>
+            <div class="burger__menu-text">Help</div>
+          </div>
+        </div>
+      </div>
+      <div class="resume">
+        <div class="container">
+          <div class="burger">
+            <div class="burger__img-box">
+              <div class="burger__img"></div>
+            </div>
+          </div>
+          <div class="resume__heading">
+            <div class="heading__left heading--show">
+              <div class="heading__title">
+                <div class="heading__title-svg">
+                  <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 20 20" fill="none">
+                    <path
+                      d="M3.33333 17.5C2.8731 17.5 2.5 17.1269 2.5 16.6667V3.33333C2.5 2.8731 2.8731 2.5 3.33333 2.5H16.6667C17.1269 2.5 17.5 2.8731 17.5 3.33333V16.6667C17.5 17.1269 17.1269 17.5 16.6667 17.5H3.33333ZM6.66667 8.33333H4.16667V15.8333H6.66667V8.33333ZM15.8333 8.33333H8.33333V15.8333H15.8333V8.33333ZM15.8333 4.16667H4.16667V6.66667H15.8333V4.16667Z"
+                      fill="#333333" />
+                  </svg>
+                </div>
+                <div class="heading__title-name">
+                  <input class="heading__title-input" type="text" placeholder="Untitled" value="Untitled" size="10">
+                </div>
+                <div class="heading__title-resume">Your resume</div>
+              </div>
+              <div class="heading__discount">
+                <div class="heading__discount-percent">10%</div>
+                <div class="heading__discount-match">Poor match</div>
+              </div>
+            </div>
+            <div class="heading__right heading--pointer">
+              <div class="heading__vacancy">
+                <div class="heading__vacancy-svg">
+                  <svg xmlns="http://www.w3.org/2000/svg" width="15" height="15" viewBox="0 0 15 15" fill="none">
+                    <path
+                      d="M7.3959 0.375797C8.13721 -0.115672 9.10029 -0.12586 9.85195 0.349812L12.9684 2.32199H14.25C14.6642 2.32199 15 2.65592 15 3.06783V9.78042C15 10.1924 14.6642 10.5263 14.25 10.5263H13.1102C13.1548 11.2328 12.8201 11.9511 12.1467 12.3529L8.32666 14.6322C7.8444 14.9199 7.24575 14.9132 6.77362 14.6266C6.24839 15.0885 5.43988 15.1393 4.85333 14.681L0.99772 11.6684C0.422907 11.2193 0.277548 10.452 0.574348 9.84367C0.211862 9.561 0 9.12818 0 8.66986V3.06788C0 2.65596 0.335793 2.32203 0.750008 2.32203H4.46024L7.3959 0.375797ZM1.6295 8.77003L2.14852 8.31842C3.07119 7.51551 4.47036 7.59502 5.29506 8.4972L7.32172 10.7142C7.97386 11.4276 8.09281 12.4756 7.6185 13.3151L11.375 11.0737C11.586 10.9478 11.6624 10.6961 11.5837 10.4841L8.26336 5.86145C8.07683 5.60179 7.74488 5.48888 7.43752 5.58058L5.57357 6.13666C4.78074 6.37317 3.92132 6.1577 3.33603 5.57568L3.11645 5.35732C2.69043 4.93367 2.58027 4.33073 2.75954 3.81373H1.50002V8.66986L1.6295 8.77003ZM9.04667 1.6083C8.79609 1.44974 8.47509 1.45314 8.22796 1.61696L4.17711 4.30253L4.39669 4.52089C4.59179 4.71491 4.87827 4.78673 5.14255 4.70788L7.00649 4.1518C7.92855 3.87671 8.92449 4.21543 9.48399 4.99442L12.3859 9.03458H13.5V3.81368H12.9684C12.6831 3.81368 12.4037 3.73279 12.163 3.58048L9.04667 1.6083ZM3.13629 9.44099L1.92447 10.4955L5.78008 13.5081L6.30801 12.5893C6.46926 12.3087 6.43041 11.9567 6.21179 11.7175L4.18514 9.50058C3.91024 9.19986 3.44385 9.17338 3.13629 9.44099Z"
+                      fill="#2388FF" />
+                  </svg>
+                </div>
+                <div class="heading__vacancy-row">
+                  <div class="heading__vacancy-title">Senior Software Developer</div>
+                  <div class="heading__vacancy-subtitle">Vacancy</div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="resume__content">
+            <div class="heading__discount-menu">
+              <div class="heading__discount-percent">10%</div>
+              <div class="heading__discount-match">Poor match</div>
+            </div>
+            <div class="content__menu-scroll">
+              <div class="content__menu menu">
+                <div class="content__menu-item">Personal details</div>
+                <div class="content__menu-line"></div>
+                <div class="content__menu-item">Summary</div>
+                <div class="content__menu-line"></div>
+                <div class="content__menu-item">Employment</div>
+                <div class="content__menu-line"></div>
+                <div class="content__menu-item">Education</div>
+                <div class="content__menu-line"></div>
+                <div class="content__menu-item">Skills</div>
+                <div class="content__menu-line"></div>
+                <div class="content__menu-item">Other</div>
+              </div>
+            </div>
+            <div class="resume__content-left resume__content--show">
+              <div class="banner__block-head">
+                <div class="banner__block-container">
+                  <div class="banner__block-titlerow">
+                    <div class="banner__block-title">Great news</div>
+                    <div class="banner__block-smile">🚀</div>
+                  </div>
+                  <div class="banner__block-text">
+                    We've analyzed both the vacancy and your resume and have crafted a list of tailored recommendations
+                    that can <span>significantly enhance</span> your resume's alignment with the job.
+                  </div>
+                  <div class="banner__block-btnbox blue">
+                    <div class="banner__block-btnsvg">
+                      <svg xmlns="http://www.w3.org/2000/svg" width="14" height="21" viewBox="0 0 14 21" fill="none">
+                        <path d="M10.0641 17.6643C9.4878 19.1688 8.38198 20.3727 7 21C5.61802 20.3727 4.51219 19.1688 3.93589 17.6643H5.91281C6.19832 18.1298 6.56696 18.5334 7 18.8486C7.43304 18.5334 7.80168 18.1298 8.08719 17.6643H10.0641ZM12.25 12.7158L14 14.8763V16.7118H0V14.8763L1.75 12.7158V7.18661C1.75 3.86872 3.94137 1.04609 7 0C10.0587 1.04609 12.25 3.86872 12.25 7.18661V12.7158ZM11.6105 14.8068L10.5 13.4357V7.18661C10.5 4.97881 9.12555 2.96647 7 2.02302C4.87443 2.96647 3.5 4.97881 3.5 7.18661V13.4357L2.38942 14.8068H11.6105ZM7 9.09161C6.03347 9.09161 5.25 8.23872 5.25 7.18661C5.25 6.13448 6.03347 5.28156 7 5.28156C7.96653 5.28156 8.75 6.13448 8.75 7.18661C8.75 8.23872 7.96653 9.09161 7 9.09161Z" fill="white"/>
+                      </svg>
+                    </div>
+                    <div class="banner__block-btntext">access upgrade</div>
+                  </div>
+                </div>
+              </div>
+              <div class="content__details details">
+                <div class="details__title content__title">Personal details</div>
+                <div class="details__form">
+                  <div class="details__form-row">
+                    <div class="details__form-label">
+                      <div class="details__form-title">Preferred Job Title</div>
+                      <input class="details__form-input" type="text"
+                        placeholder="e.g. Senior Software Developer"></input>
+                    </div>
+                    <div class="details__form-label">
+                      <div class="details__form-imgbox">
+                        <div class="details__form-img">
+                          <svg xmlns="http://www.w3.org/2000/svg" width="17" height="19" viewBox="0 0 17 19"
+                            fill="none">
+                            <path fill-rule="evenodd" clip-rule="evenodd"
+                              d="M8.50015 2.30017C6.92995 2.30017 5.65706 3.57306 5.65706 5.14324C5.65706 6.71343 6.92995 7.98632 8.50015 7.98632C10.0703 7.98632 11.3432 6.71343 11.3432 5.14324C11.3432 3.57306 10.0703 2.30017 8.50015 2.30017ZM4.26355 5.14324C4.26355 2.80344 6.16034 0.906662 8.50015 0.906662C10.84 0.906662 12.7367 2.80344 12.7367 5.14324C12.7367 7.48305 10.84 9.37983 8.50015 9.37983C6.16034 9.37983 4.26355 7.48305 4.26355 5.14324Z"
+                              fill="#6D758F" />
+                            <path fill-rule="evenodd" clip-rule="evenodd"
+                              d="M3.18536 12.248C4.45863 11.4879 6.18134 10.9817 8.50013 10.9817C10.8189 10.9817 12.5416 11.4879 13.8149 12.248C15.0887 13.0083 15.872 13.9984 16.3493 14.902L16.3493 14.902C16.7763 15.7107 16.6366 16.5498 16.1519 17.1584C15.6857 17.7439 14.9268 18.0933 14.1121 18.0933H2.88811C2.07347 18.0933 1.31458 17.7439 0.848351 17.1584C0.363629 16.5497 0.223917 15.7107 0.651018 14.902C1.12822 13.9984 1.91154 13.0083 3.18536 12.248ZM3.8996 13.4445C2.87821 14.0542 2.26042 14.8386 1.88323 15.5528L1.88323 15.5528C1.72951 15.8438 1.77841 16.0894 1.93845 16.2904C2.11698 16.5146 2.459 16.6998 2.88811 16.6998H14.1121C14.5412 16.6998 14.8833 16.5146 15.0618 16.2904C15.2218 16.0894 15.2707 15.8438 15.1171 15.5528C14.7399 14.8386 14.122 14.0542 13.1007 13.4445C12.0787 12.8345 10.6121 12.3752 8.50013 12.3752C6.38813 12.3752 4.92153 12.8345 3.8996 13.4445Z"
+                              fill="#6D758F" />
+                          </svg>
+                        </div>
+                        <div class="details__form-boxinput">
+                          <input class="details__form-input input-file" type="file" name="file"
+                            accept="image/x-png,image/gif,image/jpeg, .jpg, .jpeg, .gif, .png, .tiff">
+                          <span>Upload image</span>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="details__form-row">
+                    <div class="details__form-label">
+                      <div class="details__form-title">First name</div>
+                      <input class="details__form-input" type="text"></input>
+                    </div>
+                    <div class="details__form-label">
+                      <div class="details__form-title">Last name</div>
+                      <input class="details__form-input" type="text"></input>
+                    </div>
+                  </div>
+                  <div class="details__form-row">
+                    <div class="details__form-label">
+                      <div class="details__form-title">Email</div>
+                      <input class="details__form-input" type="text"></input>
+                    </div>
+                    <div class="details__form-label">
+                      <div class="details__form-title">Phone</div>
+                      <input class="details__form-input" type="text"></input>
+                    </div>
+                  </div>
+                  <div class="details__form-row">
+                    <div class="details__form-label">
+                      <div class="details__form-title">Country</div>
+                      <input class="details__form-input" type="text"></input>
+                    </div>
+                    <div class="details__form-label">
+                      <div class="details__form-title">City</div>
+                      <input class="details__form-input" type="text"></input>
+                    </div>
+                  </div>
+                  <div class="details__form-container" style="display: none;" id="form-container">
+                    <div class="details__form-row">
+                      <div class="details__form-label">
+                        <div class="details__form-title">Address</div>
+                        <input class="details__form-input" type="text"></input>
+                      </div>
+                      <div class="details__form-label">
+                        <div class="details__form-title">Postal Code</div>
+                        <input class="details__form-input" type="text"></input>
+                      </div>
+                    </div>
+                    <div class="details__form-row">
+                      <div class="details__form-label">
+                        <div class="details__form-title">Driving License</div>
+                        <input class="details__form-input" type="text"></input>
+                      </div>
+                      <div class="details__form-label">
+                        <div class="details__form-title">Nationality</div>
+                        <input class="details__form-input" type="text"></input>
+                      </div>
+                    </div>
+                    <div class="details__form-row">
+                      <div class="details__form-label">
+                        <div class="details__form-title">Place Of Birth</div>
+                        <input class="details__form-input" type="text"></input>
+                      </div>
+                      <div class="details__form-label">
+                        <div class="details__form-title">Date Of Birth</div>
+                        <input class="details__form-input" type="text"></input>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="details__form-slider">
+                    <span>Edit additional details</span>
+                    <svg class="details__form-svg" xmlns="http://www.w3.org/2000/svg" width="15" height="15"
+                      viewBox="0 0 15 15" fill="none">
+                      <g clip-path="url(#clip0_91_47)">
+                        <path d="M13.3741 7.63083L6.68707 14.6363L2.6226e-06 7.63083" stroke="#2388FF"
+                          stroke-width="0.825" stroke-linecap="round" stroke-linejoin="round" />
+                        <path d="M6.68707 14.6364V1" stroke="#2388FF" stroke-width="0.825" stroke-linecap="round"
+                          stroke-linejoin="round" />
+                      </g>
+                      <defs>
+                        <clipPath id="clip0_91_47">
+                          <rect width="15" height="15" fill="white" />
+                        </clipPath>
+                      </defs>
+                    </svg>
+                  </div>
+                </div>
+              </div>
+              <div class="section__container">
+                <div class="section__menu">
+                  <div class="section__menu-intro">Introduction</div>
+                  <div class="section__menu-line"></div>
+                  <div class="section__menu-object section__menu--active">Objectives</div>
+                </div>
+                <div class="intro__container container--show">
+                  <div class="content__summary summary">
+                    <div class="summary__heading">
+                      <div class="summary__heading-title content__title">Professional Summary</div>
+                      <div class="summary__heading-subtitle content__subtitle">Create 2 to 4 short, punchy sentences!
+                        Mention
+                        your position, experience,
+                        and most importantly, your greatest successes, best traits, and most impressive abilities.</div>
+                    </div>
+                    <div class="summary__btn-resumebox">
+                      <div class="summary__resumebtn">
+                        <input class="summary__resumebtn-input" type="checkbox">
+                        <div class="summary__resumebtn-style">
+                          <div class="summary__resumebtn-slider"></div>
+                        </div>
+                      </div>
+                      <div class="summary__btn-smile">👉</div>
+                      <div class="summary__btn-text">Add to resume</div>
+                    </div>
+                    <div class="summary__pre-box">
+                      <div class="summary__btn-box">
+                        <div class="summary__btn">
+                          <input class="summary__btn-input" type="checkbox">
+                          <div class="summary__btn-style">
+                            <div class="summary__btn-slider"></div>
+                          </div>
+                        </div>
+                        <div class="summary__btn-smile">⚡</div>
+                        <div class="summary__btn-text">Use optimized version</div>
+                      </div>
+                      <div class="summary__optimized">
+                        <div class="summary__optimized-lightning">
+                          <svg xmlns="http://www.w3.org/2000/svg" width="14" height="18" viewBox="0 0 14 18"
+                            fill="none">
+                            <path d="M5.34372 10.4062H0.84375L8.15621 0.84375V7.59371H12.6562L5.34372 17.1562V10.4062Z"
+                              fill="#EFCD1B" />
+                            <path fill-rule="evenodd" clip-rule="evenodd"
+                              d="M8.42676 0.0446061C8.76938 0.160595 8.99995 0.482075 8.99995 0.843797V6.75001H12.6562C12.9772 6.75001 13.2704 6.93217 13.4126 7.21995C13.5548 7.50774 13.5214 7.8513 13.3264 8.10629L6.01396 17.6687C5.79423 17.9561 5.41579 18.0714 5.07317 17.9554C4.73055 17.8394 4.49998 17.5179 4.49998 17.1562V11.25H0.843751C0.522743 11.25 0.229543 11.0678 0.0873273 10.78C-0.0548886 10.4923 -0.021481 10.1487 0.173515 9.89371L7.48597 0.331264C7.7057 0.043927 8.08414 -0.071383 8.42676 0.0446061ZM2.55114 9.5625H5.34372C5.80971 9.5625 6.18747 9.94026 6.18747 10.4062V14.6638L10.9488 8.4375H8.15621C7.69022 8.4375 7.31246 8.05975 7.31246 7.59376V3.33615L2.55114 9.5625Z"
+                              fill="#EFCD1B" />
+                          </svg>
+                        </div>
+                        <div class="summary__optimized-text">More optimized versions</div>
+                      </div>
+                    </div>
+                    <div class="banner__block-head">
+                      <div class="banner__block-container">
+                        <div class="banner__block-text banner__block-textmb">
+                          To  be able to view a full  Professional Introduction, please order an upgrade.
+                        </div>
+                        <div class="banner__block-btnbox blue">
+                          <div class="banner__block-btnsvg">
+                            <svg xmlns="http://www.w3.org/2000/svg" width="14" height="21" viewBox="0 0 14 21" fill="none">
+                              <path d="M10.0641 17.6643C9.4878 19.1688 8.38198 20.3727 7 21C5.61802 20.3727 4.51219 19.1688 3.93589 17.6643H5.91281C6.19832 18.1298 6.56696 18.5334 7 18.8486C7.43304 18.5334 7.80168 18.1298 8.08719 17.6643H10.0641ZM12.25 12.7158L14 14.8763V16.7118H0V14.8763L1.75 12.7158V7.18661C1.75 3.86872 3.94137 1.04609 7 0C10.0587 1.04609 12.25 3.86872 12.25 7.18661V12.7158ZM11.6105 14.8068L10.5 13.4357V7.18661C10.5 4.97881 9.12555 2.96647 7 2.02302C4.87443 2.96647 3.5 4.97881 3.5 7.18661V13.4357L2.38942 14.8068H11.6105ZM7 9.09161C6.03347 9.09161 5.25 8.23872 5.25 7.18661C5.25 6.13448 6.03347 5.28156 7 5.28156C7.96653 5.28156 8.75 6.13448 8.75 7.18661C8.75 8.23872 7.96653 9.09161 7 9.09161Z" fill="white"/>
+                            </svg>
+                          </div>
+                          <div class="banner__block-btntext">access upgrade</div>
+                        </div>
+                      </div>
+                    </div>
+                    <div class="summary__drafteditor-box">
+                      <div class="summary__textarea">
+                        <textarea name="" id="" cols="30" rows="10"></textarea>
+                      </div>
+                    </div>
+                    <div class="summary__bottom">
+                      <div class="summary__bottom-tip">Tip: Write 200+ characters</div>
+                      <div class="summary__bottom-limit">
+                        <div class="summary__bottom-jslimit">0</div>
+                        <span>
+                          &nbsp;/&nbsp;250
+                        </span>
+                      </div>
+                    </div>
+                    <div class="summary__popup">
+                      <div class="summary__popup-container">
+                        <div class="summary__popup-pre">
+                          <div class="summary__popup-title">select One of the suggested options</div>
+                          <div class="summary__popup-close">
+                            <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24"
+                              fill="none">
+                              <path
+                                d="M12 22C6.47715 22 2 17.5228 2 12C2 6.47715 6.47715 2 12 2C17.5228 2 22 6.47715 22 12C22 17.5228 17.5228 22 12 22ZM12 20C16.4183 20 20 16.4183 20 12C20 7.58172 16.4183 4 12 4C7.58172 4 4 7.58172 4 12C4 16.4183 7.58172 20 12 20ZM12 10.5858L14.8284 7.75736L16.2426 9.17157L13.4142 12L16.2426 14.8284L14.8284 16.2426L12 13.4142L9.17157 16.2426L7.75736 14.8284L10.5858 12L7.75736 9.17157L9.17157 7.75736L12 10.5858Z"
+                                fill="#475569" />
+                            </svg>
+                          </div>
+                        </div>
+                        <div class="summary__popup-ul">
+                          <div class="summary__popup-li">
+                            <div class="summary__popup-svg">
+                              <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24"
+                                fill="none">
+                                <path
+                                  d="M12 2C17.52 2 22 6.48 22 12C22 17.52 17.52 22 12 22C6.48 22 2 17.52 2 12C2 6.48 6.48 2 12 2ZM12 11V8L8 12L12 16V13H16V11H12Z"
+                                  fill="#475569" />
+                              </svg>
+                            </div>
+                            <div class="summary__popup-text">
+                              Lorem Ipsum is simply dummy...
+                            </div>
+                          </div>
+                          <div class="summary__popup-li">
+                            <div class="summary__popup-svg">
+                              <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24"
+                                fill="none">
+                                <path
+                                  d="M12 2C17.52 2 22 6.48 22 12C22 17.52 17.52 22 12 22C6.48 22 2 17.52 2 12C2 6.48 6.48 2 12 2ZM12 11V8L8 12L12 16V13H16V11H12Z"
+                                  fill="#475569" />
+                              </svg>
+                            </div>
+                            <div class="summary__popup-text">
+                              Lorem Ipsum is simply dummy text ...
+                            </div>
+                          </div>
+                          <div class="summary__popup-li">
+                            <div class="summary__popup-svg">
+                              <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24"
+                                fill="none">
+                                <path
+                                  d="M12 2C17.52 2 22 6.48 22 12C22 17.52 17.52 22 12 22C6.48 22 2 17.52 2 12C2 6.48 6.48 2 12 2ZM12 11V8L8 12L12 16V13H16V11H12Z"
+                                  fill="#475569" />
+                              </svg>
+                            </div>
+                            <div class="summary__popup-text">
+                              Lorem Ipsum is simply dummy text ...
+                            </div>
+                          </div>
+                          <div class="banner__block-head">
+                            <div class="banner__block-container">
+                              <div class="banner__block-text banner__block-textmb">
+                                To  be able to view all Suggestions, please order an upgrade.
+                              </div>
+                              <div class="banner__block-btnbox blue">
+                                <div class="banner__block-btnsvg">
+                                  <svg xmlns="http://www.w3.org/2000/svg" width="14" height="21" viewBox="0 0 14 21" fill="none">
+                                    <path d="M10.0641 17.6643C9.4878 19.1688 8.38198 20.3727 7 21C5.61802 20.3727 4.51219 19.1688 3.93589 17.6643H5.91281C6.19832 18.1298 6.56696 18.5334 7 18.8486C7.43304 18.5334 7.80168 18.1298 8.08719 17.6643H10.0641ZM12.25 12.7158L14 14.8763V16.7118H0V14.8763L1.75 12.7158V7.18661C1.75 3.86872 3.94137 1.04609 7 0C10.0587 1.04609 12.25 3.86872 12.25 7.18661V12.7158ZM11.6105 14.8068L10.5 13.4357V7.18661C10.5 4.97881 9.12555 2.96647 7 2.02302C4.87443 2.96647 3.5 4.97881 3.5 7.18661V13.4357L2.38942 14.8068H11.6105ZM7 9.09161C6.03347 9.09161 5.25 8.23872 5.25 7.18661C5.25 6.13448 6.03347 5.28156 7 5.28156C7.96653 5.28156 8.75 6.13448 8.75 7.18661C8.75 8.23872 7.96653 9.09161 7 9.09161Z" fill="white"/>
+                                  </svg>
+                                </div>
+                                <div class="banner__block-btntext">access upgrade</div>
+                              </div>
+                            </div>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="content__skillach skillach">
+                    <div class="skillach__heading">
+                      <div class="skillach__heading-title content__title">Skills & Achievements Highlights</div>
+                      <div class="skillach__heading-subtitle content__subtitle">Highlighting related skills in your
+                        resume directly connects your expertise to the job's requirements. It demonstrates to employers
+                        that you're not only qualified, but also ready to excel in the role.</div>
+                    </div>
+                    <div class="skillach__pre-box">
+                      <div class="skillach__btn-box">
+                        <div class="skillach__btn">
+                          <input class="skillach__btn-input" type="checkbox">
+                          <div class="skillach__btn-style">
+                            <div class="skillach__btn-slider"></div>
+                          </div>
+                        </div>
+                        <div class="skillach__btn-smile">👉</div>
+                        <div class="skillach__btn-text">Add to resume</div>
+                      </div>
+                      <div class="skillach__suggest">
+                        <div class="skillach__suggest-lightning">
+                          <svg xmlns="http://www.w3.org/2000/svg" width="14" height="18" viewBox="0 0 14 18"
+                            fill="none">
+                            <path d="M5.34372 10.4062H0.84375L8.15621 0.84375V7.59371H12.6562L5.34372 17.1562V10.4062Z"
+                              fill="#EFCD1B" />
+                            <path fill-rule="evenodd" clip-rule="evenodd"
+                              d="M8.42676 0.0446061C8.76938 0.160595 8.99995 0.482075 8.99995 0.843797V6.75001H12.6562C12.9772 6.75001 13.2704 6.93217 13.4126 7.21995C13.5548 7.50774 13.5214 7.8513 13.3264 8.10629L6.01396 17.6687C5.79423 17.9561 5.41579 18.0714 5.07317 17.9554C4.73055 17.8394 4.49998 17.5179 4.49998 17.1562V11.25H0.843751C0.522743 11.25 0.229543 11.0678 0.0873273 10.78C-0.0548886 10.4923 -0.021481 10.1487 0.173515 9.89371L7.48597 0.331264C7.7057 0.043927 8.08414 -0.071383 8.42676 0.0446061ZM2.55114 9.5625H5.34372C5.80971 9.5625 6.18747 9.94026 6.18747 10.4062V14.6638L10.9488 8.4375H8.15621C7.69022 8.4375 7.31246 8.05975 7.31246 7.59376V3.33615L2.55114 9.5625Z"
+                              fill="#EFCD1B" />
+                          </svg>
+                        </div>
+                        <div class="skillach__suggest-text">More suggestions</div>
+                      </div>
+                    </div>
+                    <div class="banner__block-head">
+                      <div class="banner__block-container">
+                        <div class="banner__block-text banner__block-textmb">
+                          We have prepared your <span>5 Top Achievements</span> and <span>5 Top Skills + 5 more Suggestions</span> 
+                          that perfectly align with the vacancy. To  be able to view them all, please order an upgrade.
+                        </div>
+                        <div class="banner__block-btnbox blue">
+                          <div class="banner__block-btnsvg">
+                            <svg xmlns="http://www.w3.org/2000/svg" width="14" height="21" viewBox="0 0 14 21" fill="none">
+                              <path d="M10.0641 17.6643C9.4878 19.1688 8.38198 20.3727 7 21C5.61802 20.3727 4.51219 19.1688 3.93589 17.6643H5.91281C6.19832 18.1298 6.56696 18.5334 7 18.8486C7.43304 18.5334 7.80168 18.1298 8.08719 17.6643H10.0641ZM12.25 12.7158L14 14.8763V16.7118H0V14.8763L1.75 12.7158V7.18661C1.75 3.86872 3.94137 1.04609 7 0C10.0587 1.04609 12.25 3.86872 12.25 7.18661V12.7158ZM11.6105 14.8068L10.5 13.4357V7.18661C10.5 4.97881 9.12555 2.96647 7 2.02302C4.87443 2.96647 3.5 4.97881 3.5 7.18661V13.4357L2.38942 14.8068H11.6105ZM7 9.09161C6.03347 9.09161 5.25 8.23872 5.25 7.18661C5.25 6.13448 6.03347 5.28156 7 5.28156C7.96653 5.28156 8.75 6.13448 8.75 7.18661C8.75 8.23872 7.96653 9.09161 7 9.09161Z" fill="white"/>
+                            </svg>
+                          </div>
+                          <div class="banner__block-btntext">access upgrade</div>
+                        </div>
+                      </div>
+                    </div>
+                    <div class="skillach__container">
+                      <div class="skillach__container-title">Your relevant skill set</div>
+                      <div class="skillach__wrapper">
+                        <div class="skillach__block add__skillach">
+                          <div class="skillach__form">
+                            <div class="skillach__form-header">
+                              <div class="skillach__form-preheading">
+                                <div class="skillach__form-heading">Backend: .Net, C# </div>
+                                <div class="skillach__form-slider">
+                                  <svg xmlns="http://www.w3.org/2000/svg" width="15" height="9" viewBox="0 0 15 9"
+                                    fill="none">
+                                    <path d="M2 7.9231L7.5 2.00002L13 7.9231" stroke="#5D5D5D" stroke-width="1.5"
+                                      stroke-linecap="square" />
+                                  </svg>
+                                </div>
+                              </div>
+                              <div class="skillach__form-descrip">
+                                With a decade of hands-on experience, I've honed deep expertise in .Net development...
+                              </div>
+                            </div>
+                            <div class="skillach__form-row">
+                              <div class="skillach__form-skill">
+                                <div class="skillach__form-title">Add skill</div>
+                                <input class="skillach__form-input" type="text"></input>
+                              </div>
+                              <div class="skillach__form-description">
+                                <div class="skillach__form-title">Description</div>
+                                <textarea class="skillach__form-textinput" type="text"></textarea>
+                              </div>
+                            </div>
+                          </div>
+                        </div>
+                        <div class="skillach__btn-delete">
+                          <svg xmlns="http://www.w3.org/2000/svg" width="17" height="17" viewBox="0 0 17 17"
+                            fill="none">
+                            <path
+                              d="M14.4531 4.98617H1.99617M14.4531 4.98617L13.6283 13.6458C13.531 14.6688 12.6717 15.45 11.6442 15.45H4.80502C3.77747 15.45 2.91832 14.6688 2.8209 13.6458L1.99617 4.98617M14.4531 4.98617C15.0035 4.98617 15.45 4.54003 15.45 3.98966V1.99655C15.45 1.44618 15.0038 1 14.4534 1H1.99655C1.44617 1 1 1.44618 1 1.99655V3.98966C1 4.54003 1.4458 4.98617 1.99617 4.98617M5.98262 9.47071H10.4671"
+                              stroke="#353E5C" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" />
+                          </svg>
+                        </div>
+                      </div>
+                      <div class="skillach__wrapper">
+                        <div class="skillach__block add__skillach">
+                          <div class="skillach__form">
+                            <div class="skillach__form-header">
+                              <div class="skillach__form-preheading">
+                                <div class="skillach__form-heading">Frontend: React, Javascript, Node.js</div>
+                                <div class="skillach__form-slider">
+                                  <svg xmlns="http://www.w3.org/2000/svg" width="15" height="9" viewBox="0 0 15 9"
+                                    fill="none">
+                                    <path d="M2 7.9231L7.5 2.00002L13 7.9231" stroke="#5D5D5D" stroke-width="1.5"
+                                      stroke-linecap="square" />
+                                  </svg>
+                                </div>
+                              </div>
+                              <div class="skillach__form-descrip">
+                                With a decade of hands-on experience, I've honed deep expertise in .Net development...
+                              </div>
+                            </div>
+                            <div class="skillach__form-row">
+                              <div class="skillach__form-skill">
+                                <div class="skillach__form-title">Add skill</div>
+                                <input class="skillach__form-input" type="text"></input>
+                              </div>
+                              <div class="skillach__form-description">
+                                <div class="skillach__form-title">Description</div>
+                                <textarea class="skillach__form-textinput" type="text"></textarea>
+                              </div>
+                            </div>
+                          </div>
+                        </div>
+                        <div class="skillach__btn-delete">
+                          <svg xmlns="http://www.w3.org/2000/svg" width="17" height="17" viewBox="0 0 17 17"
+                            fill="none">
+                            <path
+                              d="M14.4531 4.98617H1.99617M14.4531 4.98617L13.6283 13.6458C13.531 14.6688 12.6717 15.45 11.6442 15.45H4.80502C3.77747 15.45 2.91832 14.6688 2.8209 13.6458L1.99617 4.98617M14.4531 4.98617C15.0035 4.98617 15.45 4.54003 15.45 3.98966V1.99655C15.45 1.44618 15.0038 1 14.4534 1H1.99655C1.44617 1 1 1.44618 1 1.99655V3.98966C1 4.54003 1.4458 4.98617 1.99617 4.98617M5.98262 9.47071H10.4671"
+                              stroke="#353E5C" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" />
+                          </svg>
+                        </div>
+                      </div>
+                    </div>
+                    <div class="skillach__block-add">
+                      <div class="skillach__block-svg">
+                        <svg xmlns="http://www.w3.org/2000/svg" width="17" height="17" viewBox="0 0 17 17" fill="none">
+                          <path d="M8.5 1V16M16 8.5H1" stroke="#2388FF" stroke-width="1.32353"
+                            stroke-linecap="square" />
+                        </svg>
+                      </div>
+                      <div class="skillach__block-text">Add Top Skill or Achievement</div>
+                    </div>
+                  </div>
+                  <div class="content__skills skills">
+                    <div class="skills__heading">
+                      <div class="skills__heading-title content__title">Skills</div>
+                      <div class="skills__heading-subtitle content__subtitle">Displaying a diverse educational
+                        background in
+                        your resume showcases a breadth of knowledge and adaptability. It can make you stand out,
+                        highlighting
+                        your ability to bring unique perspectives and solutions to a new job.</div>
+                    </div>
+                    <div class="skills__container">
+                      <div class="skills__set">
+                        <div class="skills__set-title">Your relevant skill set</div>
+                        <div class="skills__set-items">
+                          <div class="skills__set-item">
+                            <div class="skills__set-text">.Net</div>
+                            <div class="skills__set-btn">
+                              <svg xmlns="http://www.w3.org/2000/svg" width="12" height="12" viewBox="0 0 12 12"
+                                fill="none">
+                                <path d="M10.75 1.125L1 10.875M1 1.125L10.75 10.875" stroke="white" stroke-width="1.3"
+                                  stroke-linecap="round" stroke-linejoin="round" />
+                              </svg>
+                            </div>
+                          </div>
+                          <div class="skills__set-item">
+                            <div class="skills__set-text">MS SQL</div>
+                            <div class="skills__set-btn">
+                              <svg xmlns="http://www.w3.org/2000/svg" width="12" height="12" viewBox="0 0 12 12"
+                                fill="none">
+                                <path d="M10.75 1.125L1 10.875M1 1.125L10.75 10.875" stroke="white" stroke-width="1.3"
+                                  stroke-linecap="round" stroke-linejoin="round" />
+                              </svg>
+                            </div>
+                          </div>
+                          <div class="skills__set-item">
+                            <div class="skills__set-text">Angular</div>
+                            <div class="skills__set-btn">
+                              <svg xmlns="http://www.w3.org/2000/svg" width="12" height="12" viewBox="0 0 12 12"
+                                fill="none">
+                                <path d="M10.75 1.125L1 10.875M1 1.125L10.75 10.875" stroke="white" stroke-width="1.3"
+                                  stroke-linecap="round" stroke-linejoin="round" />
+                              </svg>
+                            </div>
+                          </div>
+                          <div class="skills__set-item">
+                            <div class="skills__set-text">.Net</div>
+                            <div class="skills__set-btn">
+                              <svg xmlns="http://www.w3.org/2000/svg" width="12" height="12" viewBox="0 0 12 12"
+                                fill="none">
+                                <path d="M10.75 1.125L1 10.875M1 1.125L10.75 10.875" stroke="white" stroke-width="1.3"
+                                  stroke-linecap="round" stroke-linejoin="round" />
+                              </svg>
+                            </div>
+                          </div>
+                          <div class="skills__set-item">
+                            <div class="skills__set-text">MS SQL</div>
+                            <div class="skills__set-btn">
+                              <svg xmlns="http://www.w3.org/2000/svg" width="12" height="12" viewBox="0 0 12 12"
+                                fill="none">
+                                <path d="M10.75 1.125L1 10.875M1 1.125L10.75 10.875" stroke="white" stroke-width="1.3"
+                                  stroke-linecap="round" stroke-linejoin="round" />
+                              </svg>
+                            </div>
+                          </div>
+                          <div class="skills__set-item">
+                            <div class="skills__set-text">Angular</div>
+                            <div class="skills__set-btn">
+                              <svg xmlns="http://www.w3.org/2000/svg" width="12" height="12" viewBox="0 0 12 12"
+                                fill="none">
+                                <path d="M10.75 1.125L1 10.875M1 1.125L10.75 10.875" stroke="white" stroke-width="1.3"
+                                  stroke-linecap="round" stroke-linejoin="round" />
+                              </svg>
+                            </div>
+                          </div>
+                        </div>
+                      </div>
+                      <div class="skills__add">
+                        <div class="skills__add-title">Add skill</div>
+                        <div class="skills__add-block">
+                          <div class="skills__add-input">
+                            <input type="text">
+                          </div>
+                          <div class="skills__add-btn">
+                            <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0.5 0.5 20 20"
+                              fill="none">
+                              <path
+                                d="M9.16663 9.66675H9.66663V9.16675V4.66675H10.3333V9.16675V9.66675H10.8333H15.3333V10.3334H10.8333H10.3333V10.8334V15.3334H9.66663V10.8334V10.3334H9.16663H4.66663V9.66675H9.16663Z"
+                                fill="#2563EB" stroke="#2563EB" />
+                            </svg>
+                          </div>
+                        </div>
+                      </div>
+                      <div class="skills__checkbox-wrapper">
+                        <div class="skills__lightning">⚡</div>
+                        <div class="skills__checkbox-text">Add AI recommended skills</div>
+                      </div>
+                      <div class="banner__block-head">
+                        <div class="banner__block-container">
+                          <div class="banner__block-text banner__block-textmb">
+                            We have prepared your <span>10 Recommended Skills</span> that perfectly align with the vacancy. 
+                            To  be able to view them all, please order an upgrade.
+                          </div>
+                          <div class="banner__block-btnbox blue">
+                            <div class="banner__block-btnsvg">
+                              <svg xmlns="http://www.w3.org/2000/svg" width="14" height="21" viewBox="0 0 14 21" fill="none">
+                                <path d="M10.0641 17.6643C9.4878 19.1688 8.38198 20.3727 7 21C5.61802 20.3727 4.51219 19.1688 3.93589 17.6643H5.91281C6.19832 18.1298 6.56696 18.5334 7 18.8486C7.43304 18.5334 7.80168 18.1298 8.08719 17.6643H10.0641ZM12.25 12.7158L14 14.8763V16.7118H0V14.8763L1.75 12.7158V7.18661C1.75 3.86872 3.94137 1.04609 7 0C10.0587 1.04609 12.25 3.86872 12.25 7.18661V12.7158ZM11.6105 14.8068L10.5 13.4357V7.18661C10.5 4.97881 9.12555 2.96647 7 2.02302C4.87443 2.96647 3.5 4.97881 3.5 7.18661V13.4357L2.38942 14.8068H11.6105ZM7 9.09161C6.03347 9.09161 5.25 8.23872 5.25 7.18661C5.25 6.13448 6.03347 5.28156 7 5.28156C7.96653 5.28156 8.75 6.13448 8.75 7.18661C8.75 8.23872 7.96653 9.09161 7 9.09161Z" fill="white"/>
+                              </svg>
+                            </div>
+                            <div class="banner__block-btntext">access upgrade</div>
+                          </div>
+                        </div>
+                      </div>
+                  </div>
+                </div>
+                <div class="content__history history">
+                  <div class="history__heading">
+                    <div class="history__heading-title content__title">Employment history</div>
+                    <div class="history__heading-subtitle content__subtitle">Display your recent (10 years) relevant
+                      experience. List your accomplishments in bullet points and provide statistics or facts of
+                      Achievements.</div>
+                  </div>
+                  <div class="history__container">
+                    <div class="history__wrapper">
+                      <div class="history__block add__history">
+                        <div class="history__form">
+                          <div class="history__form-heading">
+                            <div class="history__form-abovetitle">
+                              <div class="history__form-title">Contract Software Developer at Enlighten Design</div>
+                              <div class="history__form-subtitle">July 2021 - April 2023, Auckland</div>
+                            </div>
+                            <div class="history__form-slider">
+                              <svg xmlns="http://www.w3.org/2000/svg" width="14" height="10" viewBox="0 0 14 10"
+                                fill="none">
+                                <path d="M12.5 2.03845L7 7.96153L1.5 2.03845" stroke="#5D5D5D" stroke-width="1.5"
+                                  stroke-linecap="square" />
+                              </svg>
+                            </div>
+                          </div>
+                          <div class="history__form-main">
+                            <div class="history__form-content">
+                              <div class="history__form-row">
+                                <div class="history__form-label">
+                                  <div class="history__form-title">Job Title</div>
+                                  <input class="history__form-input" type="text"></input>
+                                </div>
+                                <div class="history__form-label">
+                                  <div class="history__form-title">Employer</div>
+                                  <input class="history__form-input" type="text"></input>
+                                </div>
+                              </div>
+                              <div class="history__form-row">
+                                <div class="history__form-label">
+                                  <div class="history__form-pretitle">
+                                    <div class="history__form-title">Start & End date</div>
+                                    <div class="history__form-tip">
+                                      <svg xmlns="http://www.w3.org/2000/svg" width="18" height="18" viewBox="0 0 18 18"
+                                        fill="none">
+                                        <path
+                                          d="M9 10.1035V12.3104M10.104 5.68962C10.104 6.29903 9.60992 6.79306 9.00051 6.79306C8.39109 6.79306 7.89706 6.29903 7.89706 5.68962C7.89706 5.0802 8.39109 4.58617 9.00051 4.58617C9.60992 4.58617 10.104 5.0802 10.104 5.68962ZM17 9C17 13.4183 13.4183 17 9 17C4.58172 17 1 13.4183 1 9C1 4.58172 4.58172 1 9 1C13.4183 1 17 4.58172 17 9Z"
+                                          stroke="#5D5D5D" stroke-width="1.5" stroke-linecap="square" />
+                                      </svg>
+                                    </div>
+                                  </div>
+                                  <div class="history__form-inputrow">
+                                    <input class="history__form-input input-date" placeholder="MM&nbsp;/&nbsp;YYYY"
+                                      autocomplete="off" value></input>
+                                    <input class="history__form-input input-date" placeholder="MM&nbsp;/&nbsp;YYYY"
+                                      autocomplete="off" value></input>
+                                  </div>
+                                </div>
+                                <div class="history__form-label">
+                                  <div class="history__form-title">City</div>
+                                  <input class="history__form-input" type="text"></input>
+                                </div>
+                              </div>
+                            </div>
+                            <div class="history__btn-box">
+                              <div class="history__btn">
+                                <input class="history__btn-input" type="checkbox">
+                                <div class="history__btn-style">
+                                  <div class="history__btn-slider"></div>
+                                </div>
+                              </div>
+                              <div class="history__btn-smile">⚡</div>
+                              <div class="history__btn-text">Use optimized version</div>
+                            </div>
+                            <div class="banner__block-head">
+                              <div class="banner__block-container">
+                                <div class="banner__block-text banner__block-textmb">
+                                  We have adjusted your Achievements, Responsibilities and Description to better align with the vacancy.  To  be able to view them all, please order an upgrade.
+                                </div>
+                                <div class="banner__block-btnbox blue">
+                                  <div class="banner__block-btnsvg">
+                                    <svg xmlns="http://www.w3.org/2000/svg" width="14" height="21" viewBox="0 0 14 21" fill="none">
+                                      <path d="M10.0641 17.6643C9.4878 19.1688 8.38198 20.3727 7 21C5.61802 20.3727 4.51219 19.1688 3.93589 17.6643H5.91281C6.19832 18.1298 6.56696 18.5334 7 18.8486C7.43304 18.5334 7.80168 18.1298 8.08719 17.6643H10.0641ZM12.25 12.7158L14 14.8763V16.7118H0V14.8763L1.75 12.7158V7.18661C1.75 3.86872 3.94137 1.04609 7 0C10.0587 1.04609 12.25 3.86872 12.25 7.18661V12.7158ZM11.6105 14.8068L10.5 13.4357V7.18661C10.5 4.97881 9.12555 2.96647 7 2.02302C4.87443 2.96647 3.5 4.97881 3.5 7.18661V13.4357L2.38942 14.8068H11.6105ZM7 9.09161C6.03347 9.09161 5.25 8.23872 5.25 7.18661C5.25 6.13448 6.03347 5.28156 7 5.28156C7.96653 5.28156 8.75 6.13448 8.75 7.18661C8.75 8.23872 7.96653 9.09161 7 9.09161Z" fill="white"/>
+                                    </svg>
+                                  </div>
+                                  <div class="banner__block-btntext">access upgrade</div>
+                                </div>
+                              </div>
+                            </div>
+                            <div class="history__form-respons">
+                              <div class="history__form-resheading">
+                                <div class="history__form-bottitle">Responsibilities</div>
+                                <div class="history__form-resbtnbox">
+                                  <div class="history__form-reslight">
+                                    <svg xmlns="http://www.w3.org/2000/svg" width="14" height="18" viewBox="0 0 14 18"
+                                      fill="none">
+                                      <path
+                                        d="M5.34372 10.4062H0.84375L8.15621 0.84375V7.59371H12.6562L5.34372 17.1562V10.4062Z"
+                                        fill="#EFCD1B" />
+                                      <path fill-rule="evenodd" clip-rule="evenodd"
+                                        d="M8.42676 0.0446061C8.76938 0.160595 8.99995 0.482075 8.99995 0.843797V6.75001H12.6562C12.9772 6.75001 13.2704 6.93217 13.4126 7.21995C13.5548 7.50774 13.5214 7.8513 13.3264 8.10629L6.01396 17.6687C5.79423 17.9561 5.41579 18.0714 5.07317 17.9554C4.73055 17.8394 4.49998 17.5179 4.49998 17.1562V11.25H0.843751C0.522743 11.25 0.229543 11.0678 0.0873273 10.78C-0.0548886 10.4923 -0.021481 10.1487 0.173515 9.89371L7.48597 0.331264C7.7057 0.043927 8.08414 -0.071383 8.42676 0.0446061ZM2.55114 9.5625H5.34372C5.80971 9.5625 6.18747 9.94026 6.18747 10.4062V14.6638L10.9488 8.4375H8.15621C7.69022 8.4375 7.31246 8.05975 7.31246 7.59376V3.33615L2.55114 9.5625Z"
+                                        fill="#EFCD1B" />
+                                    </svg>
+                                  </div>
+                                  <div class="history__form-restext">More optimized versions</div>
+                                </div>
+                              </div>
+                              <div class="history__form-rescontainer">
+                                <div class="history__form-reswrapper">
+                                  <div class="history__form-resblock">
+                                    <div class="history__form-rescover">
+                                      <div class="history__form-rescoverhead">Developed and maintained web applications
+                                        using ASP.NET
+                                        MVC framework</div>
+                                      <div class="history__form-rescovertext">
+                                        <div class="history__form-rescovertitle"></div>
+                                        <textarea class="history__form-restextarea" type="text"></textarea>
+                                      </div>
+                                    </div>
+                                    <div class="history__form-ressliding">
+                                      <svg xmlns="http://www.w3.org/2000/svg" width="15" height="10" viewBox="0 0 15 10"
+                                        fill="none">
+                                        <path d="M13 2L7.5 7.92308L2 2" stroke="#5D5D5D" stroke-width="1.5"
+                                          stroke-linecap="square" />
+                                      </svg>
+                                    </div>
+                                  </div>
+                                  <div class="history__form-resbtndelete">
+                                    <svg xmlns="http://www.w3.org/2000/svg" width="17" height="17" viewBox="0 0 17 17"
+                                      fill="none">
+                                      <path d="M16 1L1 16M1 1L16 16" stroke="black" stroke-width="1.3"
+                                        stroke-linecap="round" stroke-linejoin="round" />
+                                    </svg>
+                                  </div>
+                                </div>
+                              </div>
+                              <div class="history__form-resadd">
+                                <div class="histoey__form-ressvg">
+                                  <svg xmlns="http://www.w3.org/2000/svg" width="17" height="17" viewBox="0 0 17 17"
+                                    fill="none">
+                                    <path d="M8.5 1V16M16 8.5H1" stroke="#2388FF" stroke-width="1.32353"
+                                      stroke-linecap="square" />
+                                  </svg>
+                                </div>
+                                <div class="histoey__form-restext">Add more</div>
+                              </div>
+                            </div>
+                            <div class="history__form-achieve">
+                              <div class="history__form-achieveheading">
+                                <div class="history__form-bottitle">Achievements</div>
+                                <div class="history__form-achievebtnbox">
+                                  <div class="history__form-achievelight">
+                                    <svg xmlns="http://www.w3.org/2000/svg" width="14" height="18" viewBox="0 0 14 18"
+                                      fill="none">
+                                      <path
+                                        d="M5.34372 10.4062H0.84375L8.15621 0.84375V7.59371H12.6562L5.34372 17.1562V10.4062Z"
+                                        fill="#EFCD1B" />
+                                      <path fill-rule="evenodd" clip-rule="evenodd"
+                                        d="M8.42676 0.0446061C8.76938 0.160595 8.99995 0.482075 8.99995 0.843797V6.75001H12.6562C12.9772 6.75001 13.2704 6.93217 13.4126 7.21995C13.5548 7.50774 13.5214 7.8513 13.3264 8.10629L6.01396 17.6687C5.79423 17.9561 5.41579 18.0714 5.07317 17.9554C4.73055 17.8394 4.49998 17.5179 4.49998 17.1562V11.25H0.843751C0.522743 11.25 0.229543 11.0678 0.0873273 10.78C-0.0548886 10.4923 -0.021481 10.1487 0.173515 9.89371L7.48597 0.331264C7.7057 0.043927 8.08414 -0.071383 8.42676 0.0446061ZM2.55114 9.5625H5.34372C5.80971 9.5625 6.18747 9.94026 6.18747 10.4062V14.6638L10.9488 8.4375H8.15621C7.69022 8.4375 7.31246 8.05975 7.31246 7.59376V3.33615L2.55114 9.5625Z"
+                                        fill="#EFCD1B" />
+                                    </svg>
+                                  </div>
+                                  <div class="history__form-achievetext">More optimized versions</div>
+                                </div>
+                              </div>
+                              <div class="history__form-achievecontainer">
+                                <div class="history__form-achievewrapper">
+                                  <div class="history__form-achieveblock">
+                                    <div class="history__form-achievecover">
+                                      <div class="history__form-achievecoverhead">Developed and maintained web
+                                        applications using ASP.NET
+                                        MVC framework</div>
+                                      <div class="history__form-achievecovertext">
+                                        <div class="history__form-achievecovertitle"></div>
+                                        <textarea class="history__form-achievetextarea" type="text"></textarea>
+                                      </div>
+                                    </div>
+                                    <div class="history__form-achievesliding">
+                                      <svg xmlns="http://www.w3.org/2000/svg" width="15" height="10" viewBox="0 0 15 10"
+                                        fill="none">
+                                        <path d="M13 2L7.5 7.92308L2 2" stroke="#5D5D5D" stroke-width="1.5"
+                                          stroke-linecap="square" />
+                                      </svg>
+                                    </div>
+                                  </div>
+                                  <div class="history__form-achievebtndelete">
+                                    <svg xmlns="http://www.w3.org/2000/svg" width="17" height="17" viewBox="0 0 17 17"
+                                      fill="none">
+                                      <path d="M16 1L1 16M1 1L16 16" stroke="black" stroke-width="1.3"
+                                        stroke-linecap="round" stroke-linejoin="round" />
+                                    </svg>
+                                  </div>
+                                </div>
+                              </div>
+                              <div class="history__form-achieveadd">
+                                <div class="histoey__form-achievesvg">
+                                  <svg xmlns="http://www.w3.org/2000/svg" width="17" height="17" viewBox="0 0 17 17"
+                                    fill="none">
+                                    <path d="M8.5 1V16M16 8.5H1" stroke="#2388FF" stroke-width="1.32353"
+                                      stroke-linecap="square" />
+                                  </svg>
+                                </div>
+                                <div class="histoey__form-achievetext">Add more</div>
+                              </div>
+                            </div>
+                            <div class="history__form-bottom">
+                              <div class="history__form-bottitle">Description</div>
+                              <div class="history__drafteditor-box">
+                                <div class="history__textarea">
+                                  <textarea name="" id="" cols="30" rows="10"></textarea>
+                                </div>
+                              </div>
+                              <div class="history__drafteditor-bottom">
+                                <div class="history__bottom-tip">Tip: Write 200+ characters</div>
+                                <div class="history__bottom-limit">
+                                  <div class="history__bottom-jslimit">0</div>
+                                  <span>
+                                    &nbsp;/&nbsp;250
+                                  </span>
+                                </div>
+                              </div>
+                            </div>
+                          </div>
+                        </div>
+                      </div>
+                      <div class="history__btn-delete">
+                        <svg xmlns="http://www.w3.org/2000/svg" width="17" height="17" viewBox="0 0 17 17" fill="none">
+                          <path
+                            d="M14.4531 4.98617H1.99617M14.4531 4.98617L13.6283 13.6458C13.531 14.6688 12.6717 15.45 11.6442 15.45H4.80502C3.77747 15.45 2.91832 14.6688 2.8209 13.6458L1.99617 4.98617M14.4531 4.98617C15.0035 4.98617 15.45 4.54003 15.45 3.98966V1.99655C15.45 1.44618 15.0038 1 14.4534 1H1.99655C1.44617 1 1 1.44618 1 1.99655V3.98966C1 4.54003 1.4458 4.98617 1.99617 4.98617M5.98262 9.47071H10.4671"
+                            stroke="#353E5C" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" />
+                        </svg>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="history__block-add">
+                    <div class="history__block-svg">
+                      <svg xmlns="http://www.w3.org/2000/svg" width="17" height="17" viewBox="0 0 17 17" fill="none">
+                        <path d="M8.5 1V16M16 8.5H1" stroke="#2388FF" stroke-width="1.32353" stroke-linecap="square" />
+                      </svg>
+                    </div>
+                    <div class="history__block-text">Add more Employment History</div>
+                  </div>
+                </div>
+                <div class="content__education education">
+                  <div class="education__heading">
+                    <div class="education__heading-title content__title">Education</div>
+                    <div class="education__heading-subtitle content__subtitle">Displaying a diverse educational
+                      background
+                      in your resume showcases a breadth of knowledge and adaptability. It can make you stand out,
+                      highlighting your ability to bring unique perspectives and solutions to a new job.</div>
+                  </div>
+                  <div class="education__container">
+                    <div class="education__wrapper">
+                      <div class="education__block add__education">
+                        <div class="education__form">
+                          <div class="education__form-heading">
+                            <div class="education__form-abovetitle">
+                              <div class="education__form-title">Postgraduate diploma in Computer Science</div>
+                              <div class="education__form-subtitle">July 2008 - April 2010, Auckland University of
+                                Technology, Auckland</div>
+                            </div>
+                            <div class="education__form-slider">
+                              <svg xmlns="http://www.w3.org/2000/svg" width="14" height="10" viewBox="0 0 14 10"
+                                fill="none">
+                                <path d="M12.5 2.03845L7 7.96153L1.5 2.03845" stroke="#5D5D5D" stroke-width="1.5"
+                                  stroke-linecap="square" />
+                              </svg>
+                            </div>
+                          </div>
+                          <div class="education__form-main">
+                            <div class="education__form-content">
+                              <div class="education__form-row">
+                                <div class="education__form-label">
+                                  <div class="education__form-title">School</div>
+                                  <input class="education__form-input" type="text"></input>
+                                </div>
+                                <div class="education__form-label">
+                                  <div class="education__form-title">Degree</div>
+                                  <input class="education__form-input" type="text"></input>
+                                </div>
+                              </div>
+                              <div class="education__form-row">
+                                <div class="education__form-label">
+                                  <div class="education__form-pretitle">
+                                    <div class="education__form-title">Start & End date</div>
+                                    <div class="education__form-tip">
+                                      <svg xmlns="http://www.w3.org/2000/svg" width="18" height="18" viewBox="0 0 18 18"
+                                        fill="none">
+                                        <path
+                                          d="M9 10.1035V12.3104M10.104 5.68962C10.104 6.29903 9.60992 6.79306 9.00051 6.79306C8.39109 6.79306 7.89706 6.29903 7.89706 5.68962C7.89706 5.0802 8.39109 4.58617 9.00051 4.58617C9.60992 4.58617 10.104 5.0802 10.104 5.68962ZM17 9C17 13.4183 13.4183 17 9 17C4.58172 17 1 13.4183 1 9C1 4.58172 4.58172 1 9 1C13.4183 1 17 4.58172 17 9Z"
+                                          stroke="#5D5D5D" stroke-width="1.5" stroke-linecap="square" />
+                                      </svg>
+                                    </div>
+                                  </div>
+                                  <div class="education__form-inputrow">
+                                    <input class="education__form-input input-date" placeholder="MM&nbsp;/&nbsp;YYYY"
+                                      autocomplete="off" value></input>
+                                    <input class="education__form-input input-date" placeholder="MM&nbsp;/&nbsp;YYYY"
+                                      autocomplete="off" value></input>
+                                  </div>
+                                </div>
+                                <div class="education__form-label">
+                                  <div class="education__form-title">City</div>
+                                  <input class="education__form-input" type="text"></input>
+                                </div>
+                              </div>
+                            </div>
+                            <div class="education__form-bottom">
+                              <div class="education__form-bottitle">Description</div>
+                              <div class="education__btn-box">
+                                <div class="education__btn">
+                                  <input class="education__btn-input" type="checkbox">
+                                  <div class="education__btn-style">
+                                    <div class="education__btn-slider"></div>
+                                  </div>
+                                </div>
+                                <div class="education__btn-smile">⚡</div>
+                                <div class="education__btn-text">Use optimized version</div>
+                              </div>
+                              <div class="education__drafteditor-box">
+                                <div class="education__textarea">
+                                  <textarea name="" id="" cols="30" rows="10"></textarea>
+                                </div>
+                              </div>
+                            </div>
+                          </div>
+                        </div>
+                      </div>
+                      <div class="education__btn-delete">
+                        <svg xmlns="http://www.w3.org/2000/svg" width="17" height="17" viewBox="0 0 17 17" fill="none">
+                          <path
+                            d="M14.4531 4.98617H1.99617M14.4531 4.98617L13.6283 13.6458C13.531 14.6688 12.6717 15.45 11.6442 15.45H4.80502C3.77747 15.45 2.91832 14.6688 2.8209 13.6458L1.99617 4.98617M14.4531 4.98617C15.0035 4.98617 15.45 4.54003 15.45 3.98966V1.99655C15.45 1.44618 15.0038 1 14.4534 1H1.99655C1.44617 1 1 1.44618 1 1.99655V3.98966C1 4.54003 1.4458 4.98617 1.99617 4.98617M5.98262 9.47071H10.4671"
+                            stroke="#353E5C" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" />
+                        </svg>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="education__block-add">
+                    <div class="education__block-svg">
+                      <svg xmlns="http://www.w3.org/2000/svg" width="17" height="17" viewBox="0 0 17 17" fill="none">
+                        <path d="M8.5 1V16M16 8.5H1" stroke="#2388FF" stroke-width="1.32353" stroke-linecap="square" />
+                      </svg>
+                    </div>
+                    <div class="education__block-text">Add more Education</div>
+                  </div>
+                </div>
+                <div class="content__accounts accounts">
+                  <div class="accounts__heading">
+                    <div class="accounts__heading-title content__title">Website & Social Accounts</div>
+                    <div class="accounts__heading-subtitle content__subtitle">Highlighting related skills in your
+                      resume
+                      directly connects your expertise to the job's requirements. It demonstrates to employers that
+                      you're
+                      not only qualified, but also ready to excel in the role.</div>
+                  </div>
+                  <div class="accounts__container">
+                    <div class="accounts__wrapper">
+                      <div class="accounts__block add__accounts">
+                        <div class="accounts__form">
+                          <div class="accounts__form-header">
+                            <div class="accounts__form-preheading">
+                              <div class="accounts__from-heading">Linkedin Profile</div>
+                              <div class="accounts__form-slider">
+                                <svg xmlns="http://www.w3.org/2000/svg" width="14" height="10" viewBox="0 0 14 10"
+                                  fill="none">
+                                  <path d="M12.5 2.03845L7 7.96153L1.5 2.03845" stroke="#5D5D5D" stroke-width="1.5"
+                                    stroke-linecap="square"></path>
+                                </svg>
+                              </div>
+                            </div>
+                            <div class="accounts__form-url">https://linkedin.com/username</div>
+                          </div>
+                          <div class="accounts__form-row">
+                            <div class="accounts__form-label label">
+                              <div class="accounts__from-title">Label</div>
+                              <input class="accounts__form-input" type="text">
+                            </div>
+                            <div class="accounts__form-label link">
+                              <div class="accounts__from-title">Link</div>
+                              <input class="accounts__form-input" type="text">
+                            </div>
+                          </div>
+                        </div>
+                      </div>
+                      <div class="accounts__btn-delete">
+                        <svg xmlns="http://www.w3.org/2000/svg" width="17" height="17" viewBox="0 0 17 17" fill="none">
+                          <path
+                            d="M14.4531 4.98617H1.99617M14.4531 4.98617L13.6283 13.6458C13.531 14.6688 12.6717 15.45 11.6442 15.45H4.80502C3.77747 15.45 2.91832 14.6688 2.8209 13.6458L1.99617 4.98617M14.4531 4.98617C15.0035 4.98617 15.45 4.54003 15.45 3.98966V1.99655C15.45 1.44618 15.0038 1 14.4534 1H1.99655C1.44617 1 1 1.44618 1 1.99655V3.98966C1 4.54003 1.4458 4.98617 1.99617 4.98617M5.98262 9.47071H10.4671"
+                            stroke="#353E5C" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"></path>
+                        </svg>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="accounts__add">
+                    <div class="accounts__add-svg">
+                      <svg xmlns="http://www.w3.org/2000/svg" width="17" height="17" viewBox="0 0 17 17" fill="none">
+                        <path d="M8.5 1V16M16 8.5H1" stroke="#2388FF" stroke-width="1.32353" stroke-linecap="square" />
+                      </svg>
+                    </div>
+                    <div class="accounts__add-text">Add More Links</div>
+                  </div>
+                </div>
+                <div class="content__languages languages">
+                  <div class="languages__heading">
+                    <div class="languages__heading-title content__title">Languages</div>
+                    <div class="languages__heading-subtitle content__subtitle">Highlighting your language skills
+                      showcases your ability to communicate and connect in diverse environments. Stand out to global
+                      employers and broaden your opportunities.</div>
+                  </div>
+                  <div class="languages__container">
+                    <div class="languages__wrapper">
+                      <div class="languages__block add__accounts">
+                        <div class="languages__form">
+                          <div class="languages__form-header">
+                            <div class="languages__form-preheading">
+                              <div class="languages__from-heading">English: fluent</div>
+                              <div class="languages__form-slider">
+                                <svg xmlns="http://www.w3.org/2000/svg" width="14" height="10" viewBox="0 0 14 10"
+                                  fill="none">
+                                  <path d="M12.5 2.03845L7 7.96153L1.5 2.03845" stroke="#5D5D5D" stroke-width="1.5"
+                                    stroke-linecap="square"></path>
+                                </svg>
+                              </div>
+                            </div>
+                          </div>
+                          <div class="languages__form-row">
+                            <div class="languages__form-label label">
+                              <div class="languages__from-title">Language</div>
+                              <input class="languages__form-input" type="text">
+                            </div>
+                            <div class="languages__form-label link">
+                              <div class="languages__from-title">Level</div>
+                              <input class="languages__form-input" type="text">
+                            </div>
+                          </div>
+                        </div>
+                      </div>
+                      <div class="languages__btn-delete">
+                        <svg xmlns="http://www.w3.org/2000/svg" width="17" height="17" viewBox="0 0 17 17" fill="none">
+                          <path
+                            d="M14.4531 4.98617H1.99617M14.4531 4.98617L13.6283 13.6458C13.531 14.6688 12.6717 15.45 11.6442 15.45H4.80502C3.77747 15.45 2.91832 14.6688 2.8209 13.6458L1.99617 4.98617M14.4531 4.98617C15.0035 4.98617 15.45 4.54003 15.45 3.98966V1.99655C15.45 1.44618 15.0038 1 14.4534 1H1.99655C1.44617 1 1 1.44618 1 1.99655V3.98966C1 4.54003 1.4458 4.98617 1.99617 4.98617M5.98262 9.47071H10.4671"
+                            stroke="#353E5C" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"></path>
+                        </svg>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="languages__add">
+                    <div class="languages__add-svg">
+                      <svg xmlns="http://www.w3.org/2000/svg" width="17" height="17" viewBox="0 0 17 17" fill="none">
+                        <path d="M8.5 1V16M16 8.5H1" stroke="#2388FF" stroke-width="1.32353" stroke-linecap="square" />
+                      </svg>
+                    </div>
+                    <div class="languages__add-text">Add More Links</div>
+                  </div>
+                </div>
+                <div class="content__cources cources">
+                  <div class="cources__heading">
+                    <div class="cources__heading-title content__title">Cources</div>
+                    <div class="cources__heading-subtitle content__subtitle">Listing relevant courses demonstrates your
+                      expertise and dedication to professional growth. Showcase your knowledge and stay ahead in
+                      competitive job markets.</div>
+                  </div>
+                  <div class="cources__container">
+                    <div class="cources__wrapper">
+                      <div class="cources__block add__education">
+                        <div class="cources__form">
+                          <div class="cources__form-heading">
+                            <div class="cources__form-abovetitle">
+                              <div class="cources__form-title">Machine Learning</div>
+                              <div class="cources__form-subtitle">July 2023, Courcera</div>
+                            </div>
+                            <div class="cources__form-slider">
+                              <svg xmlns="http://www.w3.org/2000/svg" width="14" height="10" viewBox="0 0 14 10"
+                                fill="none">
+                                <path d="M12.5 2.03845L7 7.96153L1.5 2.03845" stroke="#5D5D5D" stroke-width="1.5"
+                                  stroke-linecap="square" />
+                              </svg>
+                            </div>
+                          </div>
+                          <div class="cources__form-main">
+                            <div class="cources__form-content">
+                              <div class="cources__form-row">
+                                <div class="cources__form-label">
+                                  <div class="cources__form-title">Institution</div>
+                                  <input class="cources__form-input" type="text"></input>
+                                </div>
+                                <div class="cources__form-label">
+                                  <div class="cources__form-title">Course name</div>
+                                  <input class="cources__form-input" type="text"></input>
+                                </div>
+                              </div>
+                              <div class="cources__form-row">
+                                <div class="cources__form-label">
+                                  <div class="cources__form-pretitle">
+                                    <div class="cources__form-title">When</div>
+                                  </div>
+                                  <div class="cources__form-inputrow">
+                                    <input class="cources__form-input" placeholder="MM&nbsp;/&nbsp;YYYY"
+                                      autocomplete="off" value></input>
+                                  </div>
+                                </div>
+                              </div>
+                            </div>
+                            <div class="cources__form-bottom">
+                              <div class="cources__form-bottitle">Description</div>
+                              <div class="cources__drafteditor-box">
+                                <div class="cources__textarea">
+                                  <textarea name="" id="" cols="30" rows="10"></textarea>
+                                </div>
+                              </div>
+                            </div>
+                          </div>
+                        </div>
+                      </div>
+                      <div class="cources__btn-delete">
+                        <svg xmlns="http://www.w3.org/2000/svg" width="17" height="17" viewBox="0 0 17 17" fill="none">
+                          <path
+                            d="M14.4531 4.98617H1.99617M14.4531 4.98617L13.6283 13.6458C13.531 14.6688 12.6717 15.45 11.6442 15.45H4.80502C3.77747 15.45 2.91832 14.6688 2.8209 13.6458L1.99617 4.98617M14.4531 4.98617C15.0035 4.98617 15.45 4.54003 15.45 3.98966V1.99655C15.45 1.44618 15.0038 1 14.4534 1H1.99655C1.44617 1 1 1.44618 1 1.99655V3.98966C1 4.54003 1.4458 4.98617 1.99617 4.98617M5.98262 9.47071H10.4671"
+                            stroke="#353E5C" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" />
+                        </svg>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="cources__add">
+                    <div class="cources__add-svg">
+                      <svg xmlns="http://www.w3.org/2000/svg" width="17" height="17" viewBox="0 0 17 17" fill="none">
+                        <path d="M8.5 1V16M16 8.5H1" stroke="#2388FF" stroke-width="1.32353" stroke-linecap="square" />
+                      </svg>
+                    </div>
+                    <div class="cources__add-text">Add more Cources</div>
+                  </div>
+                </div>
+                <div class="content__hobbies hobbies">
+                  <div class="hobbies__heading">
+                    <div class="hobbies__heading-title content__title">Hobbies</div>
+                    <div class="hobbies__heading-subtitle content__subtitle">Sharing your hobbies reveals your passions
+                      and personal interests, adding depth to your profile. Let potential employers see the unique
+                      qualities and perspectives you bring beyond your professional skills.</div>
+                  </div>
+                  <div class="hobbies__afterheading">Your hobbies</div>
+                  <div class="hobbies__container">
+                    <div class="hobbies__wrapper">
+                      <div class="hobbies__block add__hobbies">
+                        <div class="hobbies__form">
+                          <div class="hobbies__form-heading">
+                            <div class="hobbies__form-abovetitle">
+                              <div class="hobbies__form-atitle">Captured and edited over 100+ landscape and portrait
+                                photos...</div>
+                            </div>
+                            <div class="hobbies__form-slider">
+                              <svg xmlns="http://www.w3.org/2000/svg" width="14" height="10" viewBox="0 0 14 10"
+                                fill="none">
+                                <path d="M12.5 2.03845L7 7.96153L1.5 2.03845" stroke="#5D5D5D" stroke-width="1.5"
+                                  stroke-linecap="square" />
+                              </svg>
+                            </div>
+                          </div>
+                          <div class="hobbies__form-main">
+                            <div class="hobbies-form-content">
+                              <div class="hobbies__form-row">
+                                <div class="hobbies__form-label">
+                                  <div class="hobbies__form-title">Description</div>
+                                  <div class="hobbies__drafteditor-box">
+                                    <div class="hobbies__textarea">
+                                      <textarea class="hobbies__textarea-tag" type="text"></textarea>
+                                    </div>
+                                  </div>
+                                </div>
+                              </div>
+                            </div>
+                          </div>
+                        </div>
+                      </div>
+                      <div class="hobbies__btn-delete">
+                        <svg xmlns="http://www.w3.org/2000/svg" width="17" height="17" viewBox="0 0 17 17" fill="none">
+                          <path
+                            d="M14.4531 4.98617H1.99617M14.4531 4.98617L13.6283 13.6458C13.531 14.6688 12.6717 15.45 11.6442 15.45H4.80502C3.77747 15.45 2.91832 14.6688 2.8209 13.6458L1.99617 4.98617M14.4531 4.98617C15.0035 4.98617 15.45 4.54003 15.45 3.98966V1.99655C15.45 1.44618 15.0038 1 14.4534 1H1.99655C1.44617 1 1 1.44618 1 1.99655V3.98966C1 4.54003 1.4458 4.98617 1.99617 4.98617M5.98262 9.47071H10.4671"
+                            stroke="#353E5C" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" />
+                        </svg>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="hobbies__add">
+                    <div class="hobbies__add-svg">
+                      <svg xmlns="http://www.w3.org/2000/svg" width="17" height="17" viewBox="0 0 17 17" fill="none">
+                        <path d="M8.5 1V16M16 8.5H1" stroke="#2388FF" stroke-width="1.32353" stroke-linecap="square" />
+                      </svg>
+                    </div>
+                    <div class="hobbies__add-text">Add hobbie</div>
+                  </div>
+                </div>
+                <div class="content__other other">
+                  <div class="other__heading">
+                    <div class="other__heading-title content__title">Other sections</div>
+                  </div>
+                  <div class="other__container">
+                    <div class="other__section-ul">
+                      <div class="other__section-item" id="add_custom_section">
+                        <div class="other__section-svg" id="svg_custom_section">
+                          <svg xmlns="http://www.w3.org/2000/svg" width="17" height="17" viewBox="0 0 17 17"
+                            fill="none">
+                            <path d="M8.5 1V16M16 8.5H1" stroke="#616161" stroke-width="1.32353" stroke-linecap="round"
+                              stroke-linejoin="round" />
+                          </svg>
+                        </div>
+                        <div class="other__section-svg--minus" id="svg_custom_section_minus">
+                          <svg width="17px" height="17px" viewBox="0 0 24 24" fill="none"
+                            xmlns="http://www.w3.org/2000/svg">
+                            <path d="M4 12L20 12" stroke="#000000" stroke-width="2" stroke-linecap="round"
+                              stroke-linejoin="round" />
+                          </svg>
+                        </div>
+                        <div class="other__section-text">Add Custom Section</div>
+                      </div>
+                      <div class="other__section-item" id="add_languages_section">
+                        <div class="other__section-svg" id="svg_languages_section">
+                          <svg xmlns="http://www.w3.org/2000/svg" width="17" height="17" viewBox="0 0 17 17"
+                            fill="none">
+                            <path d="M8.5 1V16M16 8.5H1" stroke="#616161" stroke-width="1.32353" stroke-linecap="round"
+                              stroke-linejoin="round" />
+                          </svg>
+                        </div>
+                        <div class="other__section-svg--minus" id="svg_languages_section_minus">
+                          <svg width="17px" height="17px" viewBox="0 0 24 24" fill="none"
+                            xmlns="http://www.w3.org/2000/svg">
+                            <path d="M4 12L20 12" stroke="#000000" stroke-width="2" stroke-linecap="round"
+                              stroke-linejoin="round" />
+                          </svg>
+                        </div>
+                        <div class="other__section-text">Add Languages</div>
+                      </div>
+                    </div>
+                    <div class="other__section-ul">
+                      <div class="other__section-item" id="add_cources_section">
+                        <div class="other__section-svg" id="svg_cources_section">
+                          <svg xmlns="http://www.w3.org/2000/svg" width="17" height="17" viewBox="0 0 17 17"
+                            fill="none">
+                            <path d="M8.5 1V16M16 8.5H1" stroke="#616161" stroke-width="1.32353" stroke-linecap="round"
+                              stroke-linejoin="round" />
+                          </svg>
+                        </div>
+                        <div class="other__section-svg--minus" id="svg_cources_section_minus">
+                          <svg width="17px" height="17px" viewBox="0 0 24 24" fill="none"
+                            xmlns="http://www.w3.org/2000/svg">
+                            <path d="M4 12L20 12" stroke="#000000" stroke-width="2" stroke-linecap="round"
+                              stroke-linejoin="round" />
+                          </svg>
+                        </div>
+                        <div class="other__section-text">Add Cources</div>
+                      </div>
+                      <div class="other__section-item" id="add_internships_section">
+                        <div class="other__section-svg" id="svg_internships_section">
+                          <svg xmlns="http://www.w3.org/2000/svg" width="17" height="17" viewBox="0 0 17 17"
+                            fill="none">
+                            <path d="M8.5 1V16M16 8.5H1" stroke="#616161" stroke-width="1.32353" stroke-linecap="round"
+                              stroke-linejoin="round" />
+                          </svg>
+                        </div>
+                        <div class="other__section-svg--minus" id="svg_internships_section_minus">
+                          <svg width="17px" height="17px" viewBox="0 0 24 24" fill="none"
+                            xmlns="http://www.w3.org/2000/svg">
+                            <path d="M4 12L20 12" stroke="#000000" stroke-width="2" stroke-linecap="round"
+                              stroke-linejoin="round" />
+                          </svg>
+                        </div>
+                        <div class="other__section-text">Add Internships</div>
+                      </div>
+                    </div>
+                    <div class="other__section-ul">
+                      <div class="other__section-item" id="add_hobbies_section">
+                        <div class="other__section-svg" id="svg_hobbies_section">
+                          <svg xmlns="http://www.w3.org/2000/svg" width="17" height="17" viewBox="0 0 17 17"
+                            fill="none">
+                            <path d="M8.5 1V16M16 8.5H1" stroke="#616161" stroke-width="1.32353" stroke-linecap="round"
+                              stroke-linejoin="round" />
+                          </svg>
+                        </div>
+                        <div class="other__section-svg--minus" id="svg_hobbies_section_minus">
+                          <svg width="17px" height="17px" viewBox="0 0 24 24" fill="none"
+                            xmlns="http://www.w3.org/2000/svg">
+                            <path d="M4 12L20 12" stroke="#000000" stroke-width="2" stroke-linecap="round"
+                              stroke-linejoin="round" />
+                          </svg>
+                        </div>
+                        <div class="other__section-text">Add Hobbies</div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div class="object__container">
+                <div class="content__objectives objectives">
+                  <div class="objectives__heading">
+                    <div class="objectives__heading-title content__title">Objectives</div>
+                    <div class="objectives__heading-subtitle content__subtitle">The Objectives section offers
+                      potential employers a glimpse into your career aspirations,
+                      ensuring your application is targeted and personalized to the role at hand.</div>
+                  </div>
+                  <div class="objectives__container">
+                    <div class="objectives__checkbox-wrapper objectives__checkbox-wrapper--resume">
+                      <div class="objectives__checkbox">
+                        <input class="objectives__checkbox-input" type="checkbox">
+                        <div class="objectives__checkbox-style objectives__checkbox-style--resume">
+                          <div class="objectives__checkbox-slider objectives__checkbox-slider--resume"></div>
+                        </div>
+                      </div>
+                      <div class="objectives__checkbox-smile">👉</div>
+                      <div class="objectives__checkbox-text">Add to resume</div>
+                    </div>
+                    <div class="objectives__checkbox-wrapper objectives__checkbox-wrapper--optimized">
+                      <div class="objectives__checkbox">
+                        <input class="objectives__checkbox-input" type="checkbox">
+                        <div class="objectives__checkbox-style objectives__checkbox-style--optimized">
+                          <div class="objectives__checkbox-slider objectives__checkbox-slider--optimized"></div>
+                        </div>
+                      </div>
+                      <div class="objectives__checkbox-smile">⚡</div>
+                      <div class="objectives__checkbox-text">Use optimized version</div>
+                    </div>
+                    <div class="objectives__drafteditor-box">
+                      <div class="objectives__textarea">
+                        <textarea name="" id="" cols="30" rows="10"></textarea>
+                      </div>
+                    </div>
+                    <div class="objectives__bottom">
+                      <div class="objectives__bottom-tip">Tip: Write up to 250 characters</div>
+                      <div class="objectives__bottom-limit">
+                        <div class="objectives__bottom-jslimit">0</div>
+                        <span>
+                          &nbsp;/&nbsp;250
+                        </span>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="resume__content-right">
+            <div class="content__vacancy vacancy">
+              <div class="vacancy__heading-wrapper">
+                <div class="vacancy__heading">
+                  <div class="vacancy__heading-title">IT Systems Developer / Programmer</div>
+                  <div class="vacancy__heading-subtitle">Pierson Wireless</div>
+                  <div class="vacancy__heading-subtitle">Omaha, NE</div>
+                </div>
+                <div class="vacancy__banner-btn">
+                  <div class="vacancy__banner-svg">
+                    <svg xmlns="http://www.w3.org/2000/svg" width="14" height="21" viewBox="0 0 14 21" fill="none">
+                      <path d="M10.0641 17.6643C9.4878 19.1688 8.38198 20.3727 7 21C5.61802 20.3727 4.51219 19.1688 3.93589 17.6643H5.91281C6.19832 18.1298 6.56696 18.5334 7 18.8486C7.43304 18.5334 7.80168 18.1298 8.08719 17.6643H10.0641ZM12.25 12.7158L14 14.8763V16.7118H0V14.8763L1.75 12.7158V7.18661C1.75 3.86872 3.94137 1.04609 7 0C10.0587 1.04609 12.25 3.86872 12.25 7.18661V12.7158ZM11.6105 14.8068L10.5 13.4357V7.18661C10.5 4.97881 9.12555 2.96647 7 2.02302C4.87443 2.96647 3.5 4.97881 3.5 7.18661V13.4357L2.38942 14.8068H11.6105ZM7 9.09161C6.03347 9.09161 5.25 8.23872 5.25 7.18661C5.25 6.13448 6.03347 5.28156 7 5.28156C7.96653 5.28156 8.75 6.13448 8.75 7.18661C8.75 8.23872 7.96653 9.09161 7 9.09161Z" fill="white"/>
+                    </svg>
+                  </div>
+                  <div class="vacancy__banner-text">Improve Your resume</div>
+                </div>
+              </div>
+              <div class="vacancy__content">
+                <div class="vacancy__subcontent">
+                  <div class="vacancy__subcontent-title">Job details</div>
+                  <div class="vacancy__subcontent-details">
+                    <div class="vacancy__subcontent-detail">
+                      <div class="vacancy__subcontent-svg">
+                        <svg width="14" height="14" viewBox="0 0 14 14" fill="none" xmlns="http://www.w3.org/2000/svg">
+                          <path
+                            d="M3.33333 3.33341V1.33341C3.33333 0.965228 3.63181 0.666748 4 0.666748H9.33333C9.70153 0.666748 10 0.965228 10 1.33341V3.33341H12.6667C13.0349 3.33341 13.3333 3.63189 13.3333 4.00008V13.3334C13.3333 13.7016 13.0349 14.0001 12.6667 14.0001H0.666667C0.29848 14.0001 0 13.7016 0 13.3334V4.00008C0 3.63189 0.29848 3.33341 0.666667 3.33341H3.33333ZM4.66667 8.66675H1.33333V12.6667H12V8.66675H8.66667V10.6667H4.66667V8.66675ZM12 4.66675H1.33333V7.33341H4.66667V6.00008H8.66667V7.33341H12V4.66675ZM6 7.33341V9.33341H7.33333V7.33341H6ZM4.66667 2.00008V3.33341H8.66667V2.00008H4.66667Z"
+                            fill="#475569" />
+                        </svg>
+                      </div>
+                      <div class="vacancy__subcontent-subtitle">Job type</div>
+                    </div>
+                    <div class="vacancy__subcontent-detpad">
+                      <div class="vacancy__detpad-item">Full-time</div>
+                    </div>
+                  </div>
+                </div>
+                <div class="vacancy__subcontent-line"></div>
+                <div class="vacancy__subcontent">
+                  <div class="vacancy__subcontent-title"></div>
+                  <div class="vacancy__subcontent-details">
+                    <div class="vacancy__subcontent-detail">
+                      <div class="vacancy__subcontent-svg">
+                        <svg width="16" height="15" viewBox="0 0 16 15" fill="none" xmlns="http://www.w3.org/2000/svg">
+                          <path
+                            d="M0.799999 0H15.2C15.6418 0 16 0.358168 16 0.799999V13.6C16 14.0418 15.6418 14.4 15.2 14.4H0.799999C0.358176 14.4 0 14.0418 0 13.6V0.799999C0 0.358168 0.358176 0 0.799999 0ZM1.6 1.6V12.8H14.4V1.6H1.6ZM5.2 8.79997H9.60001C9.82089 8.79997 10 8.62093 10 8.39997C10 8.17909 9.82089 7.99997 9.60001 7.99997H6.40001C5.29543 7.99997 4.4 7.10453 4.4 5.99997C4.4 4.89543 5.29543 4 6.40001 4H7.20001V2.4H8.80001V4H10.8V5.59997H6.40001C6.17908 5.59997 5.99999 5.77909 5.99999 5.99997C5.99999 6.22093 6.17908 6.39997 6.40001 6.39997H9.60001C10.7046 6.39997 11.6 7.29541 11.6 8.39997C11.6 9.50453 10.7046 10.4 9.60001 10.4H8.80001V12H7.20001V10.4H5.2V8.79997Z"
+                            fill="#475569" />
+                        </svg>
+                      </div>
+                      <div class="vacancy__subcontent-subtitle">Min - Max</div>
+                    </div>
+                    <div class="vacancy__subcontent-detpad">
+                      <div class="vacancy__detpad-item">$70,000</div>
+                      <div class="vacancy__detpad-text">- &nbsp;</div>
+                      <div class="vacancy__detpad-item">$100,000</div>
+                      <div class="vacancy__detpad-text">/ year</div>
+                    </div>
+                  </div>
+                </div>
+                <div class="vacancy__subcontent-line"></div>
+              </div>
+            </div>
+            <div class="content__rskills rskills">
+              <div class="content__rskills-heading">
+                <div class="rskills__heading-left">
+                  <div class="rskills__heading-title">Skills</div>
+                </div>
+                <div class="rskills__heading-right">
+                  <div class="rskills__heading-container">
+                    <div class="rskills__heading-percent">10%</div>
+                    <div class="rskills__heading-textcon">
+                      <div class="rskills__heading-text red__text">Poor match</div>
+                      <div class="rskills__heading-text">BUT we can improve this score</div>
+                    </div>
+                    <div class="rskills__heading-btnbox">
+                      <div class="rskills__heading-btn">Improve</div>
+                      <div class="rskills__heading-svg">
+                        <svg width="9" height="9" viewBox="0 0 9 9" fill="none" xmlns="http://www.w3.org/2000/svg">
+                          <path
+                            d="M4.41346 1.41064L7.64998 4.50005M7.64998 4.50005L4.41346 7.58946M7.64998 4.50005L1.35002 4.50016"
+                            stroke="#2388FF" stroke-width="0.964286" stroke-linecap="round" stroke-linejoin="round" />
+                        </svg>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div class="content__rskills-container">
+                <div class="content__rskills-row">
+                  <div class="rskills__row-title">
+                    <div class="rskills__row-svg">
+                      <svg width="16" height="16" viewBox="0 0 16 16" fill="none" xmlns="http://www.w3.org/2000/svg">
+                        <path
+                          d="M0.888889 0H15.1111C15.602 0 16 0.397973 16 0.888889V15.1111C16 15.602 15.602 16 15.1111 16H0.888889C0.397973 16 0 15.602 0 15.1111V0.888889C0 0.397973 0.397973 0 0.888889 0ZM1.77778 1.77778V14.2222H14.2222V1.77778H1.77778ZM7.11342 11.5556L3.34221 7.78436L4.5993 6.5272L7.11342 9.04142L12.1418 4.01308L13.3988 5.27016L7.11342 11.5556Z"
+                          fill="#8EA77A" />
+                      </svg>
+                    </div>
+                    <div class="rskills__row-titletext">In-depth knowledge of modern HTML/CSS:</div>
+                  </div>
+                  <div class="rskills__row-subtitle">
+                    <div class="rskills__row-line green__line"></div>
+                    <div class="rskills__row-subsvg">
+                      <svg width="9" height="12" viewBox="0 0 9 12" fill="none" xmlns="http://www.w3.org/2000/svg">
+                        <path
+                          d="M3.35986 9.14286H5.64013C5.71438 8.45623 6.05931 7.88943 6.61928 7.27006C6.68233 7.20034 7.08682 6.77509 7.13481 6.71434C7.61164 6.11034 7.875 5.36286 7.875 4.57143C7.875 2.67788 6.36396 1.14286 4.5 1.14286C2.63604 1.14286 1.125 2.67788 1.125 4.57143C1.125 5.36246 1.3881 6.10954 1.86447 6.71337C1.91252 6.77429 2.31796 7.20069 2.38024 7.2696C2.94056 7.88937 3.28558 8.45623 3.35986 9.14286ZM5.625 10.2857H3.375V10.8571H5.625V10.2857ZM0.986597 7.42811C0.369253 6.64554 0 5.65229 0 4.57143C0 2.0467 2.01472 0 4.5 0C6.98529 0 9 2.0467 9 4.57143C9 5.65286 8.63033 6.64657 8.01242 7.42937C7.6635 7.87131 6.75 8.57143 6.75 9.42857V10.8571C6.75 11.4883 6.24634 12 5.625 12H3.375C2.75368 12 2.25 11.4883 2.25 10.8571V9.42857C2.25 8.57143 1.3357 7.87063 0.986597 7.42811ZM5.0625 4.57417H6.46875L3.9375 8.00274V5.71703H2.53125L5.0625 2.28571V4.57417Z"
+                          fill="#475569" />
+                      </svg>
+                    </div>
+                    <div class="rskills__row-text">You have proven experience with HTML & CSS at your previous places
+                      of work. We can highlight this in your Resume.</div>
+                  </div>
+                </div>
+                <div class="content__rskills-row">
+                  <div class="rskills__row-title">
+                    <div class="rskills__row-svg">
+                      <svg width="16" height="16" viewBox="0 0 16 16" fill="none" xmlns="http://www.w3.org/2000/svg">
+                        <path
+                          d="M8 16C3.58172 16 0 12.4182 0 8C0 3.58172 3.58172 0 8 0C12.4182 0 16 3.58172 16 8C16 12.4182 12.4182 16 8 16ZM8 14.4C11.5346 14.4 14.4 11.5346 14.4 8C14.4 4.46538 11.5346 1.6 8 1.6C4.46538 1.6 1.6 4.46538 1.6 8C1.6 11.5346 4.46538 14.4 8 14.4ZM8 6.86864L10.2627 4.60589L11.3941 5.73726L9.13136 8L11.3941 10.2627L10.2627 11.3941L8 9.13136L5.73726 11.3941L4.60589 10.2627L6.86864 8L4.60589 5.73726L5.73726 4.60589L8 6.86864Z"
+                          fill="#F98585" />
+                      </svg>
+                    </div>
+                    <div class="rskills__row-titletext">Experienced and efficient in programming using PHP</div>
+                  </div>
+                  <div class="rskills__row-subtitle">
+                    <div class="rskills__row-line red__line"></div>
+                    <div class="rskills__row-subsvg">
+                      <svg width="9" height="12" viewBox="0 0 9 12" fill="none" xmlns="http://www.w3.org/2000/svg">
+                        <path
+                          d="M3.35986 9.14286H5.64013C5.71438 8.45623 6.05931 7.88943 6.61928 7.27006C6.68233 7.20034 7.08682 6.77509 7.13481 6.71434C7.61164 6.11034 7.875 5.36286 7.875 4.57143C7.875 2.67788 6.36396 1.14286 4.5 1.14286C2.63604 1.14286 1.125 2.67788 1.125 4.57143C1.125 5.36246 1.3881 6.10954 1.86447 6.71337C1.91252 6.77429 2.31796 7.20069 2.38024 7.2696C2.94056 7.88937 3.28558 8.45623 3.35986 9.14286ZM5.625 10.2857H3.375V10.8571H5.625V10.2857ZM0.986597 7.42811C0.369253 6.64554 0 5.65229 0 4.57143C0 2.0467 2.01472 0 4.5 0C6.98529 0 9 2.0467 9 4.57143C9 5.65286 8.63033 6.64657 8.01242 7.42937C7.6635 7.87131 6.75 8.57143 6.75 9.42857V10.8571C6.75 11.4883 6.24634 12 5.625 12H3.375C2.75368 12 2.25 11.4883 2.25 10.8571V9.42857C2.25 8.57143 1.3357 7.87063 0.986597 7.42811ZM5.0625 4.57417H6.46875L3.9375 8.00274V5.71703H2.53125L5.0625 2.28571V4.57417Z"
+                          fill="#475569" />
+                      </svg>
+                    </div>
+                    <div class="rskills__row-text">You lack experience with PHP, however you have proven experience
+                      with C# and .Net and we can point out this similarity in the development approaches.</div>
+                  </div>
+                </div>
+              </div>
+              <div class="vacancy__subcontent-line"></div>
+            </div>
+            <div class="content__respons respons">
+              <div class="content__respons-heading">
+                <div class="respons__heading-left">
+                  <div class="respons__heading-title">Responsibilities</div>
+                </div>
+                <div class="respons__heading-right">
+                  <div class="respons__heading-container">
+                    <div class="respons__heading-percent">10%</div>
+                    <div class="respons__heading-textcon">
+                      <div class="respons__heading-text red__text">Poor match</div>
+                      <div class="respons__heading-text">BUT we can improve this score</div>
+                    </div>
+                    <div class="respons__heading-btnbox">
+                      <div class="respons__heading-btn">Improve</div>
+                      <div class="respons__heading-svg">
+                        <svg width="9" height="9" viewBox="0 0 9 9" fill="none" xmlns="http://www.w3.org/2000/svg">
+                          <path
+                            d="M4.41346 1.41064L7.64998 4.50005M7.64998 4.50005L4.41346 7.58946M7.64998 4.50005L1.35002 4.50016"
+                            stroke="#2388FF" stroke-width="0.964286" stroke-linecap="round" stroke-linejoin="round" />
+                        </svg>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div class="content__respons-container">
+                <div class="content__respons-row">
+                  <div class="respons__row-title">
+                    <div class="respons__row-svg">
+                      <svg width="16" height="16" viewBox="0 0 16 16" fill="none" xmlns="http://www.w3.org/2000/svg">
+                        <path
+                          d="M0.888889 0H15.1111C15.602 0 16 0.397973 16 0.888889V15.1111C16 15.602 15.602 16 15.1111 16H0.888889C0.397973 16 0 15.602 0 15.1111V0.888889C0 0.397973 0.397973 0 0.888889 0ZM1.77778 1.77778V14.2222H14.2222V1.77778H1.77778ZM7.11342 11.5556L3.34221 7.78436L4.5993 6.5272L7.11342 9.04142L12.1418 4.01308L13.3988 5.27016L7.11342 11.5556Z"
+                          fill="#8EA77A" />
+                      </svg>
+                    </div>
+                    <div class="respons__row-titletext">Provide technical leadership and support to project team
+                      members to ensure timely and accurate completion of assigned projects.</div>
+                  </div>
+                  <div class="respons__row-subtitle">
+                    <div class="respons__row-line green__line"></div>
+                    <div class="respons__row-subsvg">
+                      <svg width="9" height="12" viewBox="0 0 9 12" fill="none" xmlns="http://www.w3.org/2000/svg">
+                        <path
+                          d="M3.35986 9.14286H5.64013C5.71438 8.45623 6.05931 7.88943 6.61928 7.27006C6.68233 7.20034 7.08682 6.77509 7.13481 6.71434C7.61164 6.11034 7.875 5.36286 7.875 4.57143C7.875 2.67788 6.36396 1.14286 4.5 1.14286C2.63604 1.14286 1.125 2.67788 1.125 4.57143C1.125 5.36246 1.3881 6.10954 1.86447 6.71337C1.91252 6.77429 2.31796 7.20069 2.38024 7.2696C2.94056 7.88937 3.28558 8.45623 3.35986 9.14286ZM5.625 10.2857H3.375V10.8571H5.625V10.2857ZM0.986597 7.42811C0.369253 6.64554 0 5.65229 0 4.57143C0 2.0467 2.01472 0 4.5 0C6.98529 0 9 2.0467 9 4.57143C9 5.65286 8.63033 6.64657 8.01242 7.42937C7.6635 7.87131 6.75 8.57143 6.75 9.42857V10.8571C6.75 11.4883 6.24634 12 5.625 12H3.375C2.75368 12 2.25 11.4883 2.25 10.8571V9.42857C2.25 8.57143 1.3357 7.87063 0.986597 7.42811ZM5.0625 4.57417H6.46875L3.9375 8.00274V5.71703H2.53125L5.0625 2.28571V4.57417Z"
+                          fill="#475569" />
+                      </svg>
+                    </div>
+                    <div class="respons__row-text">You have proven experience as a team leader in your previous place
+                      of work.</div>
+                  </div>
+                </div>
+                <div class="content__respons-row">
+                  <div class="respons__row-title">
+                    <div class="respons__row-svg">
+                      <svg width="16" height="16" viewBox="0 0 16 16" fill="none" xmlns="http://www.w3.org/2000/svg">
+                        <path
+                          d="M8 16C3.58172 16 0 12.4182 0 8C0 3.58172 3.58172 0 8 0C12.4182 0 16 3.58172 16 8C16 12.4182 12.4182 16 8 16ZM8 14.4C11.5346 14.4 14.4 11.5346 14.4 8C14.4 4.46538 11.5346 1.6 8 1.6C4.46538 1.6 1.6 4.46538 1.6 8C1.6 11.5346 4.46538 14.4 8 14.4ZM8 6.86864L10.2627 4.60589L11.3941 5.73726L9.13136 8L11.3941 10.2627L10.2627 11.3941L8 9.13136L5.73726 11.3941L4.60589 10.2627L6.86864 8L4.60589 5.73726L5.73726 4.60589L8 6.86864Z"
+                          fill="#F98585" />
+                      </svg>
+                    </div>
+                    <div class="respons__row-titletext">Story Development and Review</div>
+                  </div>
+                  <div class="respons__row-subtitle">
+                    <div class="respons__row-line red__line"></div>
+                    <div class="respons__row-subsvg">
+                      <svg width="9" height="12" viewBox="0 0 9 12" fill="none" xmlns="http://www.w3.org/2000/svg">
+                        <path
+                          d="M3.35986 9.14286H5.64013C5.71438 8.45623 6.05931 7.88943 6.61928 7.27006C6.68233 7.20034 7.08682 6.77509 7.13481 6.71434C7.61164 6.11034 7.875 5.36286 7.875 4.57143C7.875 2.67788 6.36396 1.14286 4.5 1.14286C2.63604 1.14286 1.125 2.67788 1.125 4.57143C1.125 5.36246 1.3881 6.10954 1.86447 6.71337C1.91252 6.77429 2.31796 7.20069 2.38024 7.2696C2.94056 7.88937 3.28558 8.45623 3.35986 9.14286ZM5.625 10.2857H3.375V10.8571H5.625V10.2857ZM0.986597 7.42811C0.369253 6.64554 0 5.65229 0 4.57143C0 2.0467 2.01472 0 4.5 0C6.98529 0 9 2.0467 9 4.57143C9 5.65286 8.63033 6.64657 8.01242 7.42937C7.6635 7.87131 6.75 8.57143 6.75 9.42857V10.8571C6.75 11.4883 6.24634 12 5.625 12H3.375C2.75368 12 2.25 11.4883 2.25 10.8571V9.42857C2.25 8.57143 1.3357 7.87063 0.986597 7.42811ZM5.0625 4.57417H6.46875L3.9375 8.00274V5.71703H2.53125L5.0625 2.28571V4.57417Z"
+                          fill="#475569" />
+                      </svg>
+                    </div>
+                    <div class="respons__row-text">In your current Resume you lack experience with building user
+                      stories, however if its simply missed, we can add it in one of your Work Experience.</div>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="vacancy__banner-btn vacancy__banner-btn--mb100">
+              <div class="vacancy__banner-svg">
+                <svg xmlns="http://www.w3.org/2000/svg" width="14" height="21" viewBox="0 0 14 21" fill="none">
+                  <path d="M10.0641 17.6643C9.4878 19.1688 8.38198 20.3727 7 21C5.61802 20.3727 4.51219 19.1688 3.93589 17.6643H5.91281C6.19832 18.1298 6.56696 18.5334 7 18.8486C7.43304 18.5334 7.80168 18.1298 8.08719 17.6643H10.0641ZM12.25 12.7158L14 14.8763V16.7118H0V14.8763L1.75 12.7158V7.18661C1.75 3.86872 3.94137 1.04609 7 0C10.0587 1.04609 12.25 3.86872 12.25 7.18661V12.7158ZM11.6105 14.8068L10.5 13.4357V7.18661C10.5 4.97881 9.12555 2.96647 7 2.02302C4.87443 2.96647 3.5 4.97881 3.5 7.18661V13.4357L2.38942 14.8068H11.6105ZM7 9.09161C6.03347 9.09161 5.25 8.23872 5.25 7.18661C5.25 6.13448 6.03347 5.28156 7 5.28156C7.96653 5.28156 8.75 6.13448 8.75 7.18661C8.75 8.23872 7.96653 9.09161 7 9.09161Z" fill="white"/>
+                </svg>
+              </div>
+              <div class="vacancy__banner-text">Improve Your resume</div>
+            </div>
+          </div>
+        </div>
+        <div class="resume__editor-btnbox">
+          <div class="resume__editor-btn">
+            <div class="resume__editor-text">Preview & Download</div>
+            <div class="resume__editor-svg">
+              <svg width="40px" height="40px" viewBox="0 0 40 40" version="1.1" xmlns="http://www.w3.org/2000/svg"
+                xmlns:xlink="http://www.w3.org/1999/xlink">
+                <g id="preview-document" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+                  <g id="preview" transform="translate(8.000000, 5.000000)">
+                    <path
+                      d="M1,0 L16,0 L24,8 L24,29 C24,29.5522847 23.5522847,30 23,30 L1,30 C0.44771525,30 6.76353751e-17,29.5522847 0,29 L0,1 C-6.76353751e-17,0.44771525 0.44771525,1.01453063e-16 1,0 Z"
+                      id="shape" fill="#FFFFFF"></path>
+                    <rect id="Rectangle-4" fill="#CFD6E6" x="5" y="12" width="14" height="2"></rect>
+                    <rect id="Rectangle-4" fill="#CFD6E6" x="5" y="16" width="14" height="2"></rect>
+                    <rect id="Rectangle-4" fill="#CFD6E6" x="5" y="20" width="8" height="2"></rect>
+                    <path d="M16,0 L24,8 L17,8 C16.4477153,8 16,7.55228475 16,7 L16,0 Z" id="shape" fill="#CFD6E6">
+                    </path>
+                  </g>
+                </g>
+              </svg>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="editor">
+      <div class="editor__container">
+        <div class="editor__header">
+          <div class="editor__header-back">
+            <svg width="24" height="24" viewBox="0 0 24 24" version="1.1" xmlns="http://www.w3.org/2000/svg"
+              class="editor__header-backsvg">
+              <path
+                d="M9.32427537,7.23715414 L10.6757246,5.76284586 L16.6757246,11.2628459 C17.1080918,11.6591824 17.1080918,12.3408176 16.6757246,12.7371541 L10.6757246,18.2371541 L9.32427537,16.7628459 L14.5201072,12 L9.32427537,7.23715414 Z">
+              </path>
+            </svg>
+            <div class="editor__header-backtext">Back to editor</div>
+          </div>
+          <div class="editor__header-left">
+            <div class="editor__btn-box white">
+              <div class="editor__btn-svg">
+                <svg xmlns="http://www.w3.org/2000/svg" width="17" height="17" viewBox="0 0 17 17" fill="none">
+                  <path
+                    d="M3.16667 14.5C2.79848 14.5 2.5 14.2015 2.5 13.8333V3.16667C2.5 2.79848 2.79848 2.5 3.16667 2.5H13.8333C14.2015 2.5 14.5 2.79848 14.5 3.16667V13.8333C14.5 14.2015 14.2015 14.5 13.8333 14.5H3.16667ZM5.83333 7.16667H3.83333V13.1667H5.83333V7.16667ZM13.1667 7.16667H7.16667V13.1667H13.1667V7.16667ZM13.1667 3.83333H3.83333V5.83333H13.1667V3.83333Z"
+                    fill="#2388FF" />
+                </svg>
+              </div>
+              <div class="editor__btn">Change template</div>
+            </div>
+            <div class="editor__btn-box blue">
+              <div class="editor__btn-svg">
+                <svg xmlns="http://www.w3.org/2000/svg" width="17" height="17" viewBox="0 0 17 17" fill="none">
+                  <path
+                    d="M9.16667 8.50001H11.1667L8.5 11.1667L5.83333 8.50001H7.83333V5.83334H9.16667V8.50001ZM10.5 3.16668H3.83333V13.8333H13.1667V5.83334H10.5V3.16668ZM2.5 2.49454C2.5 2.12938 2.79833 1.83334 3.16567 1.83334H11.1667L14.4998 5.16668L14.5 14.495C14.5 14.8659 14.2034 15.1667 13.8377 15.1667H3.16227C2.79651 15.1667 2.5 14.8631 2.5 14.5055V2.49454Z"
+                    fill="white" />
+                </svg>
+              </div>
+              <div class="editor__btn">Download PDF</div>
+            </div>
+          </div>
+          <div class="editor__header-right">
+            <div class="editor__btn-box grey">
+              <div class="editor__btn-svg">
+                <svg xmlns="http://www.w3.org/2000/svg" width="16" height="17" viewBox="0 0 16 17" fill="none">
+                  <path
+                    d="M3.33329 15.1667C2.96511 15.1667 2.66663 14.8682 2.66663 14.5V2.50001C2.66663 2.13182 2.96511 1.83334 3.33329 1.83334H12.6666C13.0348 1.83334 13.3333 2.13182 13.3333 2.50001V4.50001H12V3.16668H3.99996V13.8333H12V12.5H13.3333V14.5C13.3333 14.8682 13.0348 15.1667 12.6666 15.1667H3.33329ZM12 11.1667V9.16668H7.33329V7.83334H12V5.83334L15.3333 8.50001L12 11.1667Z"
+                    fill="white" />
+                </svg>
+              </div>
+              <div class="editor__btn">Save & Close</div>
+            </div>
+          </div>
+        </div>
+        <div class="editor__content">
+          <div class="editor__img-box">
+            <div class="editor__img">
+              <img src="img/preview.png" alt="">
+            </div>
+          </div>
+        </div>
+
+      </div>
+    </div>
+  </div>
+  </div>
+</body>
+<!--<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/@fancyapps/ui@4.0/dist/fancybox.umd.js"></script>
+<script type="text/javascript" src="//cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.min.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/js/bootstrap.bundle.min.js"
+  integrity="sha384-HwwvtgBNo3bZJJLYd8oVXjrBZt8cqVSpeBNS5n7C8IVInixGAoxmnlMuBnhbgrkm" crossorigin="anonymous"></script>-->
+<script src="js/ajax.googleapis.com_ajax_libs_jquery_3.6.0_jquery.min.js"></script>
+<script src="js/cdn.jsdelivr.net_npm_@fancyapps_ui@4.0_dist_fancybox.umd.js"></script>
+<script src="js/cdn.jsdelivr.net_npm_slick-carousel@1.8.1_slick_slick.min.js"></script>
+<script src="js/cdn.jsdelivr.net_npm_bootstrap@5.3.1_dist_js_bootstrap.bundle.min.js"></script>
+<script src="js/main.js"></script>
+
+</html>
